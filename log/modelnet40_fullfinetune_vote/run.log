@@ -1,0 +1,153 @@
+2026-02-11 08:22:00,844 - tmp_aug_test_seed56 - INFO - Copy the Config file from /irip/yanxu_2023/gumble-test/tmp_cfgs/tmp_aug_test_seed56.yaml to ./experiments/tmp_aug_test_seed56/tmp_cfgs/test_/irip/yanxu_2023/gumble-test/experiments_modelnet_voting/seeds/aug_test_seed56/config.yaml
+2026-02-11 08:22:00,844 - tmp_aug_test_seed56 - INFO - args.config : /irip/yanxu_2023/gumble-test/tmp_cfgs/tmp_aug_test_seed56.yaml
+2026-02-11 08:22:00,844 - tmp_aug_test_seed56 - INFO - args.launcher : none
+2026-02-11 08:22:00,844 - tmp_aug_test_seed56 - INFO - args.local_rank : 0
+2026-02-11 08:22:00,844 - tmp_aug_test_seed56 - INFO - args.num_workers : 8
+2026-02-11 08:22:00,844 - tmp_aug_test_seed56 - INFO - args.rate : 1.0
+2026-02-11 08:22:00,844 - tmp_aug_test_seed56 - INFO - args.seed : 0
+2026-02-11 08:22:00,844 - tmp_aug_test_seed56 - INFO - args.deterministic : False
+2026-02-11 08:22:00,844 - tmp_aug_test_seed56 - INFO - args.sync_bn : False
+2026-02-11 08:22:00,844 - tmp_aug_test_seed56 - INFO - args.exp_name : test_/irip/yanxu_2023/gumble-test/experiments_modelnet_voting/seeds/aug_test_seed56
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - args.loss : cd1
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - args.start_ckpts : None
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - args.ckpts : /irip/yanxu_2023/gumble-test/experiments_modelnet/best_reproduce/aug_test_lr1p4e-05_lr0p00014_drop_path_rate0p2_weight_decay0p035_weight_decay0p05_seed91/ckpt-best.pth
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - args.val_freq : 1
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - args.vote : True
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - args.resume : False
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - args.test : True
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - args.finetune_model : False
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - args.scratch_model : False
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - args.mode : None
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - args.way : -1
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - args.shot : -1
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - args.fold : -1
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - args.experiment_path : ./experiments/tmp_aug_test_seed56/tmp_cfgs/test_/irip/yanxu_2023/gumble-test/experiments_modelnet_voting/seeds/aug_test_seed56
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - args.tfboard_path : ./experiments/tmp_aug_test_seed56/tmp_cfgs/TFBoard/test_/irip/yanxu_2023/gumble-test/experiments_modelnet_voting/seeds/aug_test_seed56
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - args.log_name : tmp_aug_test_seed56
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - args.use_gpu : True
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - args.distributed : False
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - config.dataset = edict()
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - config.dataset.test = edict()
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - config.dataset.test._base_ = edict()
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - config.dataset.test._base_.NAME : ModelNet
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - config.dataset.test._base_.DATA_PATH : ./data/ModelNet/modelnet40_normal_resampled
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - config.dataset.test._base_.N_POINTS : 8192
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - config.dataset.test._base_.NUM_CATEGORY : 40
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - config.dataset.test._base_.USE_NORMALS : False
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - config.dataset.test.others = edict()
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - config.dataset.test.others.subset : test
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - config.dataset.test.others.bs : 32
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - config.dataset.train = edict()
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - config.dataset.train._base_ = edict()
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - config.dataset.train._base_.NAME : ModelNet
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - config.dataset.train._base_.DATA_PATH : ./data/ModelNet/modelnet40_normal_resampled
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - config.dataset.train._base_.N_POINTS : 8192
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - config.dataset.train._base_.NUM_CATEGORY : 40
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - config.dataset.train._base_.USE_NORMALS : False
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - config.dataset.train.others = edict()
+2026-02-11 08:22:00,845 - tmp_aug_test_seed56 - INFO - config.dataset.train.others.subset : train
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.dataset.train.others.bs : 32
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.dataset.val = edict()
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.dataset.val._base_ = edict()
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.dataset.val._base_.NAME : ModelNet
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.dataset.val._base_.DATA_PATH : ./data/ModelNet/modelnet40_normal_resampled
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.dataset.val._base_.N_POINTS : 8192
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.dataset.val._base_.NUM_CATEGORY : 40
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.dataset.val._base_.USE_NORMALS : False
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.dataset.val.others = edict()
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.dataset.val.others.subset : test
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.dataset.val.others.bs : 64
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.grad_norm_clip : 10
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.max_epoch : 200
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.model = edict()
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.model.NAME : PointTransformer
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.model.cls_dim : 40
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.model.depth : 12
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.model.drop_path_rate : 0.2
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.model.encoder_dims : 384
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.model.feat_agg : mean_max
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.model.group_size : 32
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.model.head_dp : 0.5
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.model.num_group : 64
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.model.num_heads : 6
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.model.smoothing : 0.0
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.model.trans_dim : 384
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.model.type : full
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.npoints : 1024
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.optimizer = edict()
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.optimizer.head = edict()
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.optimizer.head.lr : 0.00014
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.optimizer.head.weight_decay : 0.05
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.optimizer.kwargs = edict()
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.optimizer.kwargs.lr : 1.4e-05
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.optimizer.kwargs.weight_decay : 0.035
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.optimizer.type : AdamW
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.scheduler = edict()
+2026-02-11 08:22:00,846 - tmp_aug_test_seed56 - INFO - config.scheduler.kwargs = edict()
+2026-02-11 08:22:00,847 - tmp_aug_test_seed56 - INFO - config.scheduler.kwargs.epochs : 200
+2026-02-11 08:22:00,847 - tmp_aug_test_seed56 - INFO - config.scheduler.kwargs.initial_epochs : 10
+2026-02-11 08:22:00,847 - tmp_aug_test_seed56 - INFO - config.scheduler.type : CosLR
+2026-02-11 08:22:00,847 - tmp_aug_test_seed56 - INFO - config.seed : 56
+2026-02-11 08:22:00,847 - tmp_aug_test_seed56 - INFO - config.step_per_update : 1
+2026-02-11 08:22:00,847 - tmp_aug_test_seed56 - INFO - config.total_bs : 32
+2026-02-11 08:22:00,847 - tmp_aug_test_seed56 - INFO - Distributed training: False
+2026-02-11 08:22:00,847 - tmp_aug_test_seed56 - INFO - Set random seed to 56, deterministic: False
+2026-02-11 08:22:00,848 - tmp_aug_test_seed56 - INFO - Tester start ... 
+2026-02-11 08:22:00,856 - ModelNet - INFO - The size of test data is 2468
+2026-02-11 08:22:00,856 - ModelNet - INFO - Load processed data from ./data/ModelNet/modelnet40_normal_resampled/modelnet40_test_8192pts_fps.dat...
+2026-02-11 08:22:01,569 - tmp_aug_test_seed56 - INFO - Loading weights from /irip/yanxu_2023/gumble-test/experiments_modelnet/best_reproduce/aug_test_lr1p4e-05_lr0p00014_drop_path_rate0p2_weight_decay0p035_weight_decay0p05_seed91/ckpt-best.pth...
+2026-02-11 08:22:01,944 - tmp_aug_test_seed56 - INFO - ckpts @ 58 epoch( performance = {'acc': tensor(94.0032)})
+2026-02-11 08:22:10,064 - tmp_aug_test_seed56 - INFO - [TEST] acc = 94.0032
+2026-02-11 08:22:10,064 - tmp_aug_test_seed56 - INFO - [TEST_VOTE]
+2026-02-11 08:22:27,302 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 1]  acc = 93.9222, best acc = 93.9222
+2026-02-11 08:22:43,368 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 2]  acc = 94.0843, best acc = 94.0843
+2026-02-11 08:22:59,192 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 3]  acc = 93.7196, best acc = 94.0843
+2026-02-11 08:23:15,014 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 4]  acc = 93.8817, best acc = 94.0843
+2026-02-11 08:23:30,890 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 5]  acc = 93.9627, best acc = 94.0843
+2026-02-11 08:23:46,653 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 6]  acc = 93.7196, best acc = 94.0843
+2026-02-11 08:24:02,554 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 7]  acc = 93.9627, best acc = 94.0843
+2026-02-11 08:24:18,281 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 8]  acc = 93.6791, best acc = 94.0843
+2026-02-11 08:24:34,142 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 9]  acc = 93.7196, best acc = 94.0843
+2026-02-11 08:24:50,044 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 10]  acc = 93.8412, best acc = 94.0843
+2026-02-11 08:25:06,687 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 11]  acc = 93.5575, best acc = 94.0843
+2026-02-11 08:25:23,520 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 12]  acc = 93.6386, best acc = 94.0843
+2026-02-11 08:25:39,369 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 13]  acc = 93.8412, best acc = 94.0843
+2026-02-11 08:25:55,458 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 14]  acc = 93.6386, best acc = 94.0843
+2026-02-11 08:26:11,423 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 15]  acc = 93.8006, best acc = 94.0843
+2026-02-11 08:26:27,655 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 16]  acc = 93.7196, best acc = 94.0843
+2026-02-11 08:26:44,135 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 17]  acc = 94.0032, best acc = 94.0843
+2026-02-11 08:26:59,990 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 18]  acc = 93.8817, best acc = 94.0843
+2026-02-11 08:27:15,658 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 19]  acc = 93.8412, best acc = 94.0843
+2026-02-11 08:27:31,863 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 20]  acc = 93.6386, best acc = 94.0843
+2026-02-11 08:27:47,704 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 21]  acc = 93.5981, best acc = 94.0843
+2026-02-11 08:28:03,164 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 22]  acc = 93.8817, best acc = 94.0843
+2026-02-11 08:28:19,258 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 23]  acc = 94.2869, best acc = 94.2869
+2026-02-11 08:28:35,329 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 24]  acc = 93.8817, best acc = 94.2869
+2026-02-11 08:28:52,141 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 25]  acc = 93.9222, best acc = 94.2869
+2026-02-11 08:29:08,102 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 26]  acc = 93.6791, best acc = 94.2869
+2026-02-11 08:29:24,168 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 27]  acc = 93.8817, best acc = 94.2869
+2026-02-11 08:29:40,515 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 28]  acc = 93.7196, best acc = 94.2869
+2026-02-11 08:29:56,650 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 29]  acc = 93.8006, best acc = 94.2869
+2026-02-11 08:30:12,771 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 30]  acc = 93.8817, best acc = 94.2869
+2026-02-11 08:30:28,746 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 31]  acc = 93.9222, best acc = 94.2869
+2026-02-11 08:30:44,967 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 32]  acc = 93.9222, best acc = 94.2869
+2026-02-11 08:31:01,480 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 33]  acc = 93.8006, best acc = 94.2869
+2026-02-11 08:31:18,663 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 34]  acc = 93.8412, best acc = 94.2869
+2026-02-11 08:31:35,629 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 35]  acc = 93.6386, best acc = 94.2869
+2026-02-11 08:31:51,897 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 36]  acc = 93.5170, best acc = 94.2869
+2026-02-11 08:32:08,464 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 37]  acc = 93.7196, best acc = 94.2869
+2026-02-11 08:32:24,753 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 38]  acc = 93.5170, best acc = 94.2869
+2026-02-11 08:32:41,116 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 39]  acc = 93.9222, best acc = 94.2869
+2026-02-11 08:32:57,872 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 40]  acc = 93.8006, best acc = 94.2869
+2026-02-11 08:33:14,315 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 41]  acc = 93.9222, best acc = 94.2869
+2026-02-11 08:33:30,732 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 42]  acc = 93.8006, best acc = 94.2869
+2026-02-11 08:33:47,098 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 43]  acc = 93.8006, best acc = 94.2869
+2026-02-11 08:34:03,343 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 44]  acc = 93.5981, best acc = 94.2869
+2026-02-11 08:34:19,563 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 45]  acc = 94.0438, best acc = 94.2869
+2026-02-11 08:34:35,932 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 46]  acc = 93.5170, best acc = 94.2869
+2026-02-11 08:34:53,229 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 47]  acc = 93.9627, best acc = 94.2869
+2026-02-11 08:35:09,464 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 48]  acc = 93.7601, best acc = 94.2869
+2026-02-11 08:35:25,734 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 49]  acc = 93.7601, best acc = 94.2869
+2026-02-11 08:35:42,337 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 50]  acc = 93.8817, best acc = 94.2869
+2026-02-11 08:35:58,341 - tmp_aug_test_seed56 - INFO - [TEST_VOTE_time 51]  acc = 93.6386, best acc = 94.2869
+2026-02-11 08:35:58,341 - tmp_aug_test_seed56 - INFO - [TEST_VOTE] acc = 94.2869

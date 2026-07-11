@@ -165,3 +165,10 @@ temp.sh
 data/*
 datasets/*
 !datasets/*.py
+
+# ==== whitelist for released artifacts ====
+!ckpts/
+!ckpts/ckpt-epoch-300.pth
+!log/
+!log/**ckpts/*.pth
+.DS_Store

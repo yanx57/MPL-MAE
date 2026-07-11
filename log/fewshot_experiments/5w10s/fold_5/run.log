@@ -1,0 +1,625 @@
+2026-02-12 17:10:44,007 - tmp_aug_test_seed2 - INFO - Copy the Config file from /irip/yanxu_2023/gumble-test/tmp_cfgs/tmp_aug_test_seed2.yaml to /irip/yanxu_2023/gumble-test/experiments_fewshot/5_way_10_shot/fold_5/seeds/aug_test_seed2/config.yaml
+2026-02-12 17:10:44,007 - tmp_aug_test_seed2 - INFO - args.config : /irip/yanxu_2023/gumble-test/tmp_cfgs/tmp_aug_test_seed2.yaml
+2026-02-12 17:10:44,007 - tmp_aug_test_seed2 - INFO - args.launcher : none
+2026-02-12 17:10:44,007 - tmp_aug_test_seed2 - INFO - args.local_rank : 0
+2026-02-12 17:10:44,007 - tmp_aug_test_seed2 - INFO - args.num_workers : 8
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.rate : 1.0
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.seed : 0
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.deterministic : False
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.sync_bn : False
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.exp_name : /irip/yanxu_2023/gumble-test/experiments_fewshot/5_way_10_shot/fold_5/seeds/aug_test_seed2
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.loss : cd1
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.start_ckpts : None
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.ckpts : /irip/yanxu_2023/gumble-test/ckpt-epoch-300.pth
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.val_freq : 1
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.vote : False
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.resume : False
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.test : False
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.finetune_model : True
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.scratch_model : False
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.mode : None
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.way : 5
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.shot : 10
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.fold : 5
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.experiment_path : /irip/yanxu_2023/gumble-test/experiments_fewshot/5_way_10_shot/fold_5/seeds/aug_test_seed2
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.tfboard_path : /irip/yanxu_2023/gumble-test/experiments_fewshot/5_way_10_shot/fold_5/seeds/aug_test_seed2
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.log_name : tmp_aug_test_seed2
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.use_gpu : True
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - args.distributed : False
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - config.dataset = edict()
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - config.dataset.test = edict()
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - config.dataset.test._base_ = edict()
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - config.dataset.test._base_.NAME : ModelNet
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - config.dataset.test._base_.DATA_PATH : ./data/ModelNet/modelnet40_normal_resampled
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - config.dataset.test._base_.N_POINTS : 8192
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - config.dataset.test._base_.NUM_CATEGORY : 40
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - config.dataset.test._base_.USE_NORMALS : False
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - config.dataset.test.others = edict()
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - config.dataset.test.others.subset : test
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - config.dataset.test.others.bs : 32
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - config.dataset.train = edict()
+2026-02-12 17:10:44,008 - tmp_aug_test_seed2 - INFO - config.dataset.train._base_ = edict()
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.dataset.train._base_.NAME : ModelNetFewShot
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.dataset.train._base_.DATA_PATH : ./data/ModelNetFewshot
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.dataset.train._base_.N_POINTS : 8192
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.dataset.train._base_.NUM_CATEGORY : 40
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.dataset.train._base_.USE_NORMALS : False
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.dataset.train.others = edict()
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.dataset.train.others.subset : train
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.dataset.train.others.bs : 32
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.dataset.val = edict()
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.dataset.val._base_ = edict()
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.dataset.val._base_.NAME : ModelNetFewShot
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.dataset.val._base_.DATA_PATH : ./data/ModelNetFewshot
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.dataset.val._base_.N_POINTS : 8192
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.dataset.val._base_.NUM_CATEGORY : 40
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.dataset.val._base_.USE_NORMALS : False
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.dataset.val.others = edict()
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.dataset.val.others.subset : test
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.dataset.val.others.bs : 64
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.grad_norm_clip : 10
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.max_epoch : 150
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.model = edict()
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.model.NAME : PointTransformer
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.model.cls_dim : 40
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.model.depth : 12
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.model.drop_path_rate : 0.1
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.model.ema_decay : 0.999
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.model.encoder_dims : 384
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.model.feat_agg : mean_max
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.model.group_size : 32
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.model.head_dp : 0.5
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.model.num_group : 64
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.model.num_heads : 6
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.model.smoothing : 0.0
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.model.trans_dim : 384
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.model.type : full
+2026-02-12 17:10:44,009 - tmp_aug_test_seed2 - INFO - config.npoints : 1024
+2026-02-12 17:10:44,010 - tmp_aug_test_seed2 - INFO - config.optimizer = edict()
+2026-02-12 17:10:44,010 - tmp_aug_test_seed2 - INFO - config.optimizer.head = edict()
+2026-02-12 17:10:44,010 - tmp_aug_test_seed2 - INFO - config.optimizer.head.lr : 5e-3
+2026-02-12 17:10:44,010 - tmp_aug_test_seed2 - INFO - config.optimizer.head.weight_decay : 0.05
+2026-02-12 17:10:44,010 - tmp_aug_test_seed2 - INFO - config.optimizer.kwargs = edict()
+2026-02-12 17:10:44,010 - tmp_aug_test_seed2 - INFO - config.optimizer.kwargs.lr : 5e-4
+2026-02-12 17:10:44,010 - tmp_aug_test_seed2 - INFO - config.optimizer.kwargs.weight_decay : 0.05
+2026-02-12 17:10:44,010 - tmp_aug_test_seed2 - INFO - config.optimizer.type : AdamW
+2026-02-12 17:10:44,010 - tmp_aug_test_seed2 - INFO - config.scheduler = edict()
+2026-02-12 17:10:44,010 - tmp_aug_test_seed2 - INFO - config.scheduler.kwargs = edict()
+2026-02-12 17:10:44,010 - tmp_aug_test_seed2 - INFO - config.scheduler.kwargs.epochs : 150
+2026-02-12 17:10:44,010 - tmp_aug_test_seed2 - INFO - config.scheduler.kwargs.initial_epochs : 10
+2026-02-12 17:10:44,010 - tmp_aug_test_seed2 - INFO - config.scheduler.type : CosLR
+2026-02-12 17:10:44,010 - tmp_aug_test_seed2 - INFO - config.seed : 2
+2026-02-12 17:10:44,010 - tmp_aug_test_seed2 - INFO - config.step_per_update : 1
+2026-02-12 17:10:44,010 - tmp_aug_test_seed2 - INFO - config.total_bs : 32
+2026-02-12 17:10:44,010 - tmp_aug_test_seed2 - INFO - Distributed training: False
+2026-02-12 17:10:44,010 - tmp_aug_test_seed2 - INFO - Set random seed to 2, deterministic: False
+2026-02-12 17:10:44,011 - ModelNetFewShot - INFO - Load processed data from ./data/ModelNetFewshot/5way_10shot/5.pkl...
+2026-02-12 17:10:44,044 - ModelNetFewShot - INFO - The size of train data is 50
+2026-02-12 17:10:44,045 - ModelNetFewShot - INFO - Load processed data from ./data/ModelNetFewshot/5way_10shot/5.pkl...
+2026-02-12 17:10:44,072 - ModelNetFewShot - INFO - The size of test data is 100
+2026-02-12 17:10:50,370 - Transformer - INFO - missing_keys
+2026-02-12 17:10:50,371 - Transformer - INFO - Some model parameters or buffers are not found in the checkpoint:
+  cls_token
+  cls_pos
+  cls_head_finetune.0.{weight, bias}
+  cls_head_finetune.1.{weight, bias, running_mean, running_var}
+  cls_head_finetune.4.{weight, bias}
+  cls_head_finetune.5.{weight, bias, running_mean, running_var}
+  cls_head_finetune.8.{weight, bias}
+2026-02-12 17:10:50,371 - Transformer - INFO - unexpected_keys
+2026-02-12 17:10:50,371 - Transformer - INFO - The checkpoint state_dict contains keys that are not used by the model:
+  mask_token
+  MAE_decoder.blocks.0.norm1.{weight, bias}
+  MAE_decoder.blocks.0.norm2.{weight, bias}
+  MAE_decoder.blocks.0.mlp.fc1.{weight, bias}
+  MAE_decoder.blocks.0.mlp.fc2.{weight, bias}
+  MAE_decoder.blocks.0.attn.qkv.weight
+  MAE_decoder.blocks.0.attn.proj.{weight, bias}
+  MAE_decoder.blocks.1.norm1.{weight, bias}
+  MAE_decoder.blocks.1.norm2.{weight, bias}
+  MAE_decoder.blocks.1.mlp.fc1.{weight, bias}
+  MAE_decoder.blocks.1.mlp.fc2.{weight, bias}
+  MAE_decoder.blocks.1.attn.qkv.weight
+  MAE_decoder.blocks.1.attn.proj.{weight, bias}
+  MAE_decoder.blocks.2.norm1.{weight, bias}
+  MAE_decoder.blocks.2.norm2.{weight, bias}
+  MAE_decoder.blocks.2.mlp.fc1.{weight, bias}
+  MAE_decoder.blocks.2.mlp.fc2.{weight, bias}
+  MAE_decoder.blocks.2.attn.qkv.weight
+  MAE_decoder.blocks.2.attn.proj.{weight, bias}
+  MAE_decoder.blocks.3.norm1.{weight, bias}
+  MAE_decoder.blocks.3.norm2.{weight, bias}
+  MAE_decoder.blocks.3.mlp.fc1.{weight, bias}
+  MAE_decoder.blocks.3.mlp.fc2.{weight, bias}
+  MAE_decoder.blocks.3.attn.qkv.weight
+  MAE_decoder.blocks.3.attn.proj.{weight, bias}
+  MAE_decoder.gates.0.gate.{weight, bias}
+  MAE_decoder.gates.1.gate.{weight, bias}
+  MAE_decoder.gates.2.gate.{weight, bias}
+  MAE_decoder.gates.3.gate.{weight, bias}
+  MAE_decoder.norm.{weight, bias}
+  decoder_pos_embed.0.weight
+  decoder_pos_embed.2.weight
+  increase_dim.0.{weight, bias}
+  mask_pos_token
+2026-02-12 17:10:50,371 - Transformer - INFO - [Transformer] Successful Loading the ckpt from /irip/yanxu_2023/gumble-test/ckpt-epoch-300.pth
+2026-02-12 17:10:50,408 - tmp_aug_test_seed2 - INFO - Using Data parallel ...
+trainable parameters: 
+cls_token
+10 * LR:  cls_token
+cls_pos
+10 * LR:  cls_pos
+encoder.first_conv.0.weight
+encoder.first_conv.0.bias
+encoder.first_conv.1.weight
+encoder.first_conv.1.bias
+encoder.first_conv.3.weight
+encoder.first_conv.3.bias
+encoder.second_conv.0.weight
+encoder.second_conv.0.bias
+encoder.second_conv.1.weight
+encoder.second_conv.1.bias
+encoder.second_conv.3.weight
+encoder.second_conv.3.bias
+pos_embed.0.weight
+pos_embed.0.bias
+pos_embed.2.weight
+pos_embed.2.bias
+blocks.blocks.0.norm1.weight
+blocks.blocks.0.norm1.bias
+blocks.blocks.0.norm2.weight
+blocks.blocks.0.norm2.bias
+blocks.blocks.0.mlp.fc1.weight
+blocks.blocks.0.mlp.fc1.bias
+blocks.blocks.0.mlp.fc2.weight
+blocks.blocks.0.mlp.fc2.bias
+blocks.blocks.0.attn.qkv.weight
+blocks.blocks.0.attn.proj.weight
+blocks.blocks.0.attn.proj.bias
+blocks.blocks.1.norm1.weight
+blocks.blocks.1.norm1.bias
+blocks.blocks.1.norm2.weight
+blocks.blocks.1.norm2.bias
+blocks.blocks.1.mlp.fc1.weight
+blocks.blocks.1.mlp.fc1.bias
+blocks.blocks.1.mlp.fc2.weight
+blocks.blocks.1.mlp.fc2.bias
+blocks.blocks.1.attn.qkv.weight
+blocks.blocks.1.attn.proj.weight
+blocks.blocks.1.attn.proj.bias
+blocks.blocks.2.norm1.weight
+blocks.blocks.2.norm1.bias
+blocks.blocks.2.norm2.weight
+blocks.blocks.2.norm2.bias
+blocks.blocks.2.mlp.fc1.weight
+blocks.blocks.2.mlp.fc1.bias
+blocks.blocks.2.mlp.fc2.weight
+blocks.blocks.2.mlp.fc2.bias
+blocks.blocks.2.attn.qkv.weight
+blocks.blocks.2.attn.proj.weight
+blocks.blocks.2.attn.proj.bias
+blocks.blocks.3.norm1.weight
+blocks.blocks.3.norm1.bias
+blocks.blocks.3.norm2.weight
+blocks.blocks.3.norm2.bias
+blocks.blocks.3.mlp.fc1.weight
+blocks.blocks.3.mlp.fc1.bias
+blocks.blocks.3.mlp.fc2.weight
+blocks.blocks.3.mlp.fc2.bias
+blocks.blocks.3.attn.qkv.weight
+blocks.blocks.3.attn.proj.weight
+blocks.blocks.3.attn.proj.bias
+blocks.blocks.4.norm1.weight
+blocks.blocks.4.norm1.bias
+blocks.blocks.4.norm2.weight
+blocks.blocks.4.norm2.bias
+blocks.blocks.4.mlp.fc1.weight
+blocks.blocks.4.mlp.fc1.bias
+blocks.blocks.4.mlp.fc2.weight
+blocks.blocks.4.mlp.fc2.bias
+blocks.blocks.4.attn.qkv.weight
+blocks.blocks.4.attn.proj.weight
+blocks.blocks.4.attn.proj.bias
+blocks.blocks.5.norm1.weight
+blocks.blocks.5.norm1.bias
+blocks.blocks.5.norm2.weight
+blocks.blocks.5.norm2.bias
+blocks.blocks.5.mlp.fc1.weight
+blocks.blocks.5.mlp.fc1.bias
+blocks.blocks.5.mlp.fc2.weight
+blocks.blocks.5.mlp.fc2.bias
+blocks.blocks.5.attn.qkv.weight
+blocks.blocks.5.attn.proj.weight
+blocks.blocks.5.attn.proj.bias
+blocks.blocks.6.norm1.weight
+blocks.blocks.6.norm1.bias
+blocks.blocks.6.norm2.weight
+blocks.blocks.6.norm2.bias
+blocks.blocks.6.mlp.fc1.weight
+blocks.blocks.6.mlp.fc1.bias
+blocks.blocks.6.mlp.fc2.weight
+blocks.blocks.6.mlp.fc2.bias
+blocks.blocks.6.attn.qkv.weight
+blocks.blocks.6.attn.proj.weight
+blocks.blocks.6.attn.proj.bias
+blocks.blocks.7.norm1.weight
+blocks.blocks.7.norm1.bias
+blocks.blocks.7.norm2.weight
+blocks.blocks.7.norm2.bias
+blocks.blocks.7.mlp.fc1.weight
+blocks.blocks.7.mlp.fc1.bias
+blocks.blocks.7.mlp.fc2.weight
+blocks.blocks.7.mlp.fc2.bias
+blocks.blocks.7.attn.qkv.weight
+blocks.blocks.7.attn.proj.weight
+blocks.blocks.7.attn.proj.bias
+blocks.blocks.8.norm1.weight
+blocks.blocks.8.norm1.bias
+blocks.blocks.8.norm2.weight
+blocks.blocks.8.norm2.bias
+blocks.blocks.8.mlp.fc1.weight
+blocks.blocks.8.mlp.fc1.bias
+blocks.blocks.8.mlp.fc2.weight
+blocks.blocks.8.mlp.fc2.bias
+blocks.blocks.8.attn.qkv.weight
+blocks.blocks.8.attn.proj.weight
+blocks.blocks.8.attn.proj.bias
+blocks.blocks.9.norm1.weight
+blocks.blocks.9.norm1.bias
+blocks.blocks.9.norm2.weight
+blocks.blocks.9.norm2.bias
+blocks.blocks.9.mlp.fc1.weight
+blocks.blocks.9.mlp.fc1.bias
+blocks.blocks.9.mlp.fc2.weight
+blocks.blocks.9.mlp.fc2.bias
+blocks.blocks.9.attn.qkv.weight
+blocks.blocks.9.attn.proj.weight
+blocks.blocks.9.attn.proj.bias
+blocks.blocks.10.norm1.weight
+blocks.blocks.10.norm1.bias
+blocks.blocks.10.norm2.weight
+blocks.blocks.10.norm2.bias
+blocks.blocks.10.mlp.fc1.weight
+blocks.blocks.10.mlp.fc1.bias
+blocks.blocks.10.mlp.fc2.weight
+blocks.blocks.10.mlp.fc2.bias
+blocks.blocks.10.attn.qkv.weight
+blocks.blocks.10.attn.proj.weight
+blocks.blocks.10.attn.proj.bias
+blocks.blocks.11.norm1.weight
+blocks.blocks.11.norm1.bias
+blocks.blocks.11.norm2.weight
+blocks.blocks.11.norm2.bias
+blocks.blocks.11.mlp.fc1.weight
+blocks.blocks.11.mlp.fc1.bias
+blocks.blocks.11.mlp.fc2.weight
+blocks.blocks.11.mlp.fc2.bias
+blocks.blocks.11.attn.qkv.weight
+blocks.blocks.11.attn.proj.weight
+blocks.blocks.11.attn.proj.bias
+norm.weight
+norm.bias
+cls_head_finetune.0.weight
+10 * LR:  cls_head_finetune.0.weight
+cls_head_finetune.0.bias
+10 * LR:  cls_head_finetune.0.bias
+cls_head_finetune.1.weight
+10 * LR:  cls_head_finetune.1.weight
+cls_head_finetune.1.bias
+10 * LR:  cls_head_finetune.1.bias
+cls_head_finetune.4.weight
+10 * LR:  cls_head_finetune.4.weight
+cls_head_finetune.4.bias
+10 * LR:  cls_head_finetune.4.bias
+cls_head_finetune.5.weight
+10 * LR:  cls_head_finetune.5.weight
+cls_head_finetune.5.bias
+10 * LR:  cls_head_finetune.5.bias
+cls_head_finetune.8.weight
+10 * LR:  cls_head_finetune.8.weight
+cls_head_finetune.8.bias
+10 * LR:  cls_head_finetune.8.bias
+2026-02-12 17:10:53,380 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 0 EpochTime = 2.965 (s) Losses = ['3.8931', '0.0000'] lr = 0.000001
+2026-02-12 17:10:55,018 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 1 EpochTime = 1.636 (s) Losses = ['3.8472', '0.0000'] lr = 0.000501
+2026-02-12 17:10:56,707 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 1  acc = 0.0000, best_acc = 0.0000
+2026-02-12 17:10:58,398 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 2 EpochTime = 1.683 (s) Losses = ['3.8434', '0.0000'] lr = 0.001001
+2026-02-12 17:10:59,838 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 2  acc = 0.0000, best_acc = 0.0000
+2026-02-12 17:11:01,317 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 3 EpochTime = 1.476 (s) Losses = ['3.5183', '6.2500'] lr = 0.001501
+2026-02-12 17:11:02,796 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 3  acc = 3.0000, best_acc = 3.0000
+2026-02-12 17:11:04,572 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 4 EpochTime = 1.771 (s) Losses = ['2.9886', '28.1250'] lr = 0.002001
+2026-02-12 17:11:06,363 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 4  acc = 23.0000, best_acc = 23.0000
+2026-02-12 17:11:07,966 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 5 EpochTime = 1.599 (s) Losses = ['2.4428', '53.1250'] lr = 0.002501
+2026-02-12 17:11:09,701 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 5  acc = 32.0000, best_acc = 32.0000
+2026-02-12 17:11:11,955 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 6 EpochTime = 2.249 (s) Losses = ['2.1040', '81.2500'] lr = 0.003000
+2026-02-12 17:11:13,632 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 6  acc = 38.0000, best_acc = 38.0000
+2026-02-12 17:11:15,421 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 7 EpochTime = 1.786 (s) Losses = ['1.4679', '96.8750'] lr = 0.003500
+2026-02-12 17:11:17,043 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 7  acc = 41.0000, best_acc = 41.0000
+2026-02-12 17:11:19,039 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 8 EpochTime = 1.992 (s) Losses = ['1.0198', '96.8750'] lr = 0.004000
+2026-02-12 17:11:20,818 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 8  acc = 39.0000, best_acc = 41.0000
+2026-02-12 17:11:22,705 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 9 EpochTime = 1.884 (s) Losses = ['0.7902', '100.0000'] lr = 0.004500
+2026-02-12 17:11:24,455 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 9  acc = 43.0000, best_acc = 43.0000
+2026-02-12 17:11:26,168 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 10 EpochTime = 1.709 (s) Losses = ['0.4773', '96.8750'] lr = 0.004945
+2026-02-12 17:11:27,814 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 10  acc = 46.0000, best_acc = 46.0000
+2026-02-12 17:11:29,594 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 11 EpochTime = 1.776 (s) Losses = ['0.3805', '93.7500'] lr = 0.004934
+2026-02-12 17:11:31,546 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 11  acc = 45.0000, best_acc = 46.0000
+2026-02-12 17:11:33,366 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 12 EpochTime = 1.817 (s) Losses = ['0.2047', '100.0000'] lr = 0.004921
+2026-02-12 17:11:35,233 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 12  acc = 46.0000, best_acc = 46.0000
+2026-02-12 17:11:37,091 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 13 EpochTime = 1.856 (s) Losses = ['0.1867', '96.8750'] lr = 0.004908
+2026-02-12 17:11:38,958 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 13  acc = 46.0000, best_acc = 46.0000
+2026-02-12 17:11:40,742 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 14 EpochTime = 1.781 (s) Losses = ['0.1119', '100.0000'] lr = 0.004893
+2026-02-12 17:11:42,720 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 14  acc = 44.0000, best_acc = 46.0000
+2026-02-12 17:11:44,577 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 15 EpochTime = 1.851 (s) Losses = ['0.1054', '100.0000'] lr = 0.004878
+2026-02-12 17:11:46,644 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 15  acc = 45.0000, best_acc = 46.0000
+2026-02-12 17:11:48,630 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 16 EpochTime = 1.983 (s) Losses = ['0.1164', '100.0000'] lr = 0.004861
+2026-02-12 17:11:50,763 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 16  acc = 49.0000, best_acc = 49.0000
+2026-02-12 17:11:52,441 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 17 EpochTime = 1.670 (s) Losses = ['0.0920', '100.0000'] lr = 0.004843
+2026-02-12 17:11:54,243 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 17  acc = 53.0000, best_acc = 53.0000
+2026-02-12 17:11:55,986 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 18 EpochTime = 1.738 (s) Losses = ['0.0395', '100.0000'] lr = 0.004824
+2026-02-12 17:11:57,854 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 18  acc = 62.0000, best_acc = 62.0000
+2026-02-12 17:11:59,673 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 19 EpochTime = 1.814 (s) Losses = ['0.0325', '100.0000'] lr = 0.004805
+2026-02-12 17:12:01,746 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 19  acc = 70.0000, best_acc = 70.0000
+2026-02-12 17:12:03,687 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 20 EpochTime = 1.936 (s) Losses = ['0.0373', '100.0000'] lr = 0.004784
+2026-02-12 17:12:05,451 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 20  acc = 73.0000, best_acc = 73.0000
+2026-02-12 17:12:07,269 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 21 EpochTime = 1.814 (s) Losses = ['0.0319', '100.0000'] lr = 0.004762
+2026-02-12 17:12:09,139 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 21  acc = 74.0000, best_acc = 74.0000
+2026-02-12 17:12:11,204 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 22 EpochTime = 2.059 (s) Losses = ['0.0306', '100.0000'] lr = 0.004739
+2026-02-12 17:12:13,415 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 22  acc = 77.0000, best_acc = 77.0000
+2026-02-12 17:12:15,192 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 23 EpochTime = 1.771 (s) Losses = ['0.0273', '100.0000'] lr = 0.004716
+2026-02-12 17:12:17,180 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 23  acc = 78.0000, best_acc = 78.0000
+2026-02-12 17:12:19,051 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 24 EpochTime = 1.867 (s) Losses = ['0.0760', '96.8750'] lr = 0.004691
+2026-02-12 17:12:20,877 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 24  acc = 77.0000, best_acc = 78.0000
+2026-02-12 17:12:22,810 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 25 EpochTime = 1.930 (s) Losses = ['0.0140', '100.0000'] lr = 0.004665
+2026-02-12 17:12:24,869 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 25  acc = 73.0000, best_acc = 78.0000
+2026-02-12 17:12:26,363 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 26 EpochTime = 1.488 (s) Losses = ['0.0305', '100.0000'] lr = 0.004638
+2026-02-12 17:12:28,379 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 26  acc = 73.0000, best_acc = 78.0000
+2026-02-12 17:12:30,298 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 27 EpochTime = 1.916 (s) Losses = ['0.0266', '100.0000'] lr = 0.004611
+2026-02-12 17:12:32,082 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 27  acc = 72.0000, best_acc = 78.0000
+2026-02-12 17:12:33,776 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 28 EpochTime = 1.691 (s) Losses = ['0.0285', '100.0000'] lr = 0.004582
+2026-02-12 17:12:35,832 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 28  acc = 73.0000, best_acc = 78.0000
+2026-02-12 17:12:37,647 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 29 EpochTime = 1.811 (s) Losses = ['0.0191', '100.0000'] lr = 0.004553
+2026-02-12 17:12:39,611 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 29  acc = 75.0000, best_acc = 78.0000
+2026-02-12 17:12:41,408 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 30 EpochTime = 1.794 (s) Losses = ['0.0214', '100.0000'] lr = 0.004523
+2026-02-12 17:12:43,194 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 30  acc = 79.0000, best_acc = 79.0000
+2026-02-12 17:12:44,830 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 31 EpochTime = 1.629 (s) Losses = ['0.0376', '96.8750'] lr = 0.004491
+2026-02-12 17:12:46,985 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 31  acc = 84.0000, best_acc = 84.0000
+2026-02-12 17:12:49,146 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 32 EpochTime = 2.157 (s) Losses = ['0.0155', '100.0000'] lr = 0.004459
+2026-02-12 17:12:50,989 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 32  acc = 89.0000, best_acc = 89.0000
+2026-02-12 17:12:52,859 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 33 EpochTime = 1.866 (s) Losses = ['0.0129', '100.0000'] lr = 0.004426
+2026-02-12 17:12:54,669 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 33  acc = 91.0000, best_acc = 91.0000
+2026-02-12 17:12:56,511 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 34 EpochTime = 1.837 (s) Losses = ['0.0152', '100.0000'] lr = 0.004393
+2026-02-12 17:12:58,772 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 34  acc = 97.0000, best_acc = 97.0000
+2026-02-12 17:12:58,776 - tmp_aug_test_seed2 - INFO - base--------------------------------------------------------------------------------------------
+2026-02-12 17:13:00,373 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 35 EpochTime = 1.596 (s) Losses = ['0.0112', '100.0000'] lr = 0.004358
+2026-02-12 17:13:02,615 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 35  acc = 97.0000, best_acc = 97.0000
+2026-02-12 17:13:04,384 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 36 EpochTime = 1.766 (s) Losses = ['0.0228', '100.0000'] lr = 0.004323
+2026-02-12 17:13:06,189 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 36  acc = 97.0000, best_acc = 97.0000
+2026-02-12 17:13:08,032 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 37 EpochTime = 1.839 (s) Losses = ['0.0074', '100.0000'] lr = 0.004286
+2026-02-12 17:13:10,058 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 37  acc = 97.0000, best_acc = 97.0000
+2026-02-12 17:13:11,906 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 38 EpochTime = 1.845 (s) Losses = ['0.0107', '100.0000'] lr = 0.004249
+2026-02-12 17:13:13,776 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 38  acc = 97.0000, best_acc = 97.0000
+2026-02-12 17:13:15,655 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 39 EpochTime = 1.876 (s) Losses = ['0.0115', '100.0000'] lr = 0.004212
+2026-02-12 17:13:17,715 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 39  acc = 97.0000, best_acc = 97.0000
+2026-02-12 17:13:19,567 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 40 EpochTime = 1.848 (s) Losses = ['0.0398', '96.8750'] lr = 0.004173
+2026-02-12 17:13:21,402 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 40  acc = 97.0000, best_acc = 97.0000
+2026-02-12 17:13:23,130 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 41 EpochTime = 1.726 (s) Losses = ['0.0059', '100.0000'] lr = 0.004134
+2026-02-12 17:13:24,940 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 41  acc = 97.0000, best_acc = 97.0000
+2026-02-12 17:13:26,977 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 42 EpochTime = 2.034 (s) Losses = ['0.0060', '100.0000'] lr = 0.004094
+2026-02-12 17:13:28,873 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 42  acc = 98.0000, best_acc = 98.0000
+2026-02-12 17:13:28,877 - tmp_aug_test_seed2 - INFO - base--------------------------------------------------------------------------------------------
+2026-02-12 17:13:30,791 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 43 EpochTime = 1.912 (s) Losses = ['0.0076', '100.0000'] lr = 0.004053
+2026-02-12 17:13:32,568 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 43  acc = 97.0000, best_acc = 98.0000
+2026-02-12 17:13:34,343 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 44 EpochTime = 1.771 (s) Losses = ['0.0080', '100.0000'] lr = 0.004012
+2026-02-12 17:13:36,175 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 44  acc = 97.0000, best_acc = 98.0000
+2026-02-12 17:13:38,234 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 45 EpochTime = 2.056 (s) Losses = ['0.0043', '100.0000'] lr = 0.003970
+2026-02-12 17:13:40,232 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 45  acc = 96.0000, best_acc = 98.0000
+2026-02-12 17:13:42,052 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 46 EpochTime = 1.816 (s) Losses = ['0.0075', '100.0000'] lr = 0.003927
+2026-02-12 17:13:43,766 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 46  acc = 96.0000, best_acc = 98.0000
+2026-02-12 17:13:45,753 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 47 EpochTime = 1.984 (s) Losses = ['0.0149', '100.0000'] lr = 0.003884
+2026-02-12 17:13:47,545 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 47  acc = 97.0000, best_acc = 98.0000
+2026-02-12 17:13:49,182 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 48 EpochTime = 1.633 (s) Losses = ['0.0091', '100.0000'] lr = 0.003840
+2026-02-12 17:13:51,083 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 48  acc = 97.0000, best_acc = 98.0000
+2026-02-12 17:13:52,869 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 49 EpochTime = 1.782 (s) Losses = ['0.0142', '100.0000'] lr = 0.003795
+2026-02-12 17:13:54,695 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 49  acc = 97.0000, best_acc = 98.0000
+2026-02-12 17:13:56,600 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 50 EpochTime = 1.902 (s) Losses = ['0.0059', '100.0000'] lr = 0.003750
+2026-02-12 17:13:58,596 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 50  acc = 97.0000, best_acc = 98.0000
+2026-02-12 17:14:00,507 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 51 EpochTime = 1.908 (s) Losses = ['0.0031', '100.0000'] lr = 0.003705
+2026-02-12 17:14:02,411 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 51  acc = 98.0000, best_acc = 98.0000
+2026-02-12 17:14:04,461 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 52 EpochTime = 2.047 (s) Losses = ['0.0091', '100.0000'] lr = 0.003659
+2026-02-12 17:14:06,386 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 52  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:14:06,389 - tmp_aug_test_seed2 - INFO - base--------------------------------------------------------------------------------------------
+2026-02-12 17:14:08,032 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 53 EpochTime = 1.641 (s) Losses = ['0.0049', '100.0000'] lr = 0.003612
+2026-02-12 17:14:09,992 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 53  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:14:12,243 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 54 EpochTime = 2.248 (s) Losses = ['0.0072', '100.0000'] lr = 0.003565
+2026-02-12 17:14:14,162 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 54  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:14:15,953 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 55 EpochTime = 1.787 (s) Losses = ['0.0046', '100.0000'] lr = 0.003517
+2026-02-12 17:14:17,931 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 55  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:14:19,869 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 56 EpochTime = 1.934 (s) Losses = ['0.0051', '100.0000'] lr = 0.003469
+2026-02-12 17:14:21,813 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 56  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:14:23,840 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 57 EpochTime = 2.023 (s) Losses = ['0.0022', '100.0000'] lr = 0.003421
+2026-02-12 17:14:25,758 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 57  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:14:27,640 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 58 EpochTime = 1.879 (s) Losses = ['0.0053', '100.0000'] lr = 0.003372
+2026-02-12 17:14:29,397 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 58  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:14:31,116 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 59 EpochTime = 1.715 (s) Losses = ['0.0050', '100.0000'] lr = 0.003323
+2026-02-12 17:14:33,181 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 59  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:14:35,035 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 60 EpochTime = 1.850 (s) Losses = ['0.0058', '100.0000'] lr = 0.003273
+2026-02-12 17:14:37,223 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 60  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:14:39,119 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 61 EpochTime = 1.891 (s) Losses = ['0.0041', '100.0000'] lr = 0.003223
+2026-02-12 17:14:40,751 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 61  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:14:42,653 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 62 EpochTime = 1.899 (s) Losses = ['0.0034', '100.0000'] lr = 0.003173
+2026-02-12 17:14:44,217 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 62  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:14:45,835 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 63 EpochTime = 1.615 (s) Losses = ['0.0087', '100.0000'] lr = 0.003122
+2026-02-12 17:14:47,583 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 63  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:14:49,544 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 64 EpochTime = 1.957 (s) Losses = ['0.0025', '100.0000'] lr = 0.003071
+2026-02-12 17:14:51,324 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 64  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:14:53,181 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 65 EpochTime = 1.852 (s) Losses = ['0.0040', '100.0000'] lr = 0.003020
+2026-02-12 17:14:54,922 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 65  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:14:56,756 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 66 EpochTime = 1.830 (s) Losses = ['0.0121', '100.0000'] lr = 0.002969
+2026-02-12 17:14:58,439 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 66  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:15:00,345 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 67 EpochTime = 1.901 (s) Losses = ['0.0042', '100.0000'] lr = 0.002917
+2026-02-12 17:15:02,350 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 67  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:15:04,057 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 68 EpochTime = 1.704 (s) Losses = ['0.0052', '100.0000'] lr = 0.002866
+2026-02-12 17:15:06,013 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 68  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:15:07,792 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 69 EpochTime = 1.776 (s) Losses = ['0.0031', '100.0000'] lr = 0.002814
+2026-02-12 17:15:09,550 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 69  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:15:11,353 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 70 EpochTime = 1.800 (s) Losses = ['0.0042', '100.0000'] lr = 0.002762
+2026-02-12 17:15:13,390 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 70  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:15:15,223 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 71 EpochTime = 1.829 (s) Losses = ['0.0040', '100.0000'] lr = 0.002710
+2026-02-12 17:15:17,022 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 71  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:15:18,963 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 72 EpochTime = 1.938 (s) Losses = ['0.0064', '100.0000'] lr = 0.002657
+2026-02-12 17:15:20,995 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 72  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:15:22,614 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 73 EpochTime = 1.616 (s) Losses = ['0.0032', '100.0000'] lr = 0.002605
+2026-02-12 17:15:24,352 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 73  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:15:26,114 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 74 EpochTime = 1.759 (s) Losses = ['0.0030', '100.0000'] lr = 0.002553
+2026-02-12 17:15:27,986 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 74  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:15:29,784 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 75 EpochTime = 1.795 (s) Losses = ['0.0059', '100.0000'] lr = 0.002501
+2026-02-12 17:15:31,666 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 75  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:15:33,402 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 76 EpochTime = 1.732 (s) Losses = ['0.0039', '100.0000'] lr = 0.002448
+2026-02-12 17:15:35,380 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 76  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:15:37,387 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 77 EpochTime = 2.003 (s) Losses = ['0.0037', '100.0000'] lr = 0.002396
+2026-02-12 17:15:39,369 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 77  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:15:41,199 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 78 EpochTime = 1.826 (s) Losses = ['0.0031', '100.0000'] lr = 0.002344
+2026-02-12 17:15:43,076 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 78  acc = 99.0000, best_acc = 100.0000
+2026-02-12 17:15:45,235 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 79 EpochTime = 2.153 (s) Losses = ['0.0039', '100.0000'] lr = 0.002291
+2026-02-12 17:15:47,088 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 79  acc = 99.0000, best_acc = 100.0000
+2026-02-12 17:15:49,057 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 80 EpochTime = 1.966 (s) Losses = ['0.0046', '100.0000'] lr = 0.002239
+2026-02-12 17:15:50,926 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 80  acc = 99.0000, best_acc = 100.0000
+2026-02-12 17:15:52,975 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 81 EpochTime = 2.047 (s) Losses = ['0.0083', '100.0000'] lr = 0.002187
+2026-02-12 17:15:54,825 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 81  acc = 99.0000, best_acc = 100.0000
+2026-02-12 17:15:56,685 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 82 EpochTime = 1.857 (s) Losses = ['0.0032', '100.0000'] lr = 0.002135
+2026-02-12 17:15:58,470 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 82  acc = 99.0000, best_acc = 100.0000
+2026-02-12 17:16:00,443 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 83 EpochTime = 1.970 (s) Losses = ['0.0028', '100.0000'] lr = 0.002084
+2026-02-12 17:16:02,654 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 83  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:16:04,128 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 84 EpochTime = 1.470 (s) Losses = ['0.0050', '100.0000'] lr = 0.002032
+2026-02-12 17:16:05,997 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 84  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:16:07,740 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 85 EpochTime = 1.739 (s) Losses = ['0.0085', '100.0000'] lr = 0.001981
+2026-02-12 17:16:09,707 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 85  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:16:11,748 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 86 EpochTime = 2.037 (s) Losses = ['0.0043', '100.0000'] lr = 0.001930
+2026-02-12 17:16:13,704 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 86  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:16:15,467 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 87 EpochTime = 1.760 (s) Losses = ['0.0030', '100.0000'] lr = 0.001879
+2026-02-12 17:16:17,348 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 87  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:16:19,312 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 88 EpochTime = 1.960 (s) Losses = ['0.0052', '100.0000'] lr = 0.001828
+2026-02-12 17:16:21,138 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 88  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:16:22,868 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 89 EpochTime = 1.726 (s) Losses = ['0.0069', '100.0000'] lr = 0.001778
+2026-02-12 17:16:24,777 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 89  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:16:26,514 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 90 EpochTime = 1.734 (s) Losses = ['0.0028', '100.0000'] lr = 0.001728
+2026-02-12 17:16:28,359 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 90  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:16:30,288 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 91 EpochTime = 1.926 (s) Losses = ['0.0031', '100.0000'] lr = 0.001678
+2026-02-12 17:16:32,186 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 91  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:16:34,137 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 92 EpochTime = 1.947 (s) Losses = ['0.0030', '100.0000'] lr = 0.001629
+2026-02-12 17:16:35,791 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 92  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:16:37,462 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 93 EpochTime = 1.665 (s) Losses = ['0.0029', '100.0000'] lr = 0.001580
+2026-02-12 17:16:39,422 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 93  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:16:41,427 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 94 EpochTime = 2.000 (s) Losses = ['0.0042', '100.0000'] lr = 0.001532
+2026-02-12 17:16:43,126 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 94  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:16:45,010 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 95 EpochTime = 1.880 (s) Losses = ['0.0092', '100.0000'] lr = 0.001484
+2026-02-12 17:16:46,724 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 95  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:16:48,601 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 96 EpochTime = 1.873 (s) Losses = ['0.0050', '100.0000'] lr = 0.001436
+2026-02-12 17:16:50,457 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 96  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:16:52,422 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 97 EpochTime = 1.963 (s) Losses = ['0.0027', '100.0000'] lr = 0.001389
+2026-02-12 17:16:54,197 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 97  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:16:55,857 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 98 EpochTime = 1.657 (s) Losses = ['0.0040', '100.0000'] lr = 0.001342
+2026-02-12 17:16:57,741 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 98  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:16:59,476 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 99 EpochTime = 1.731 (s) Losses = ['0.0046', '100.0000'] lr = 0.001296
+2026-02-12 17:17:01,611 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 99  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:17:03,348 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 100 EpochTime = 1.735 (s) Losses = ['0.0023', '100.0000'] lr = 0.001251
+2026-02-12 17:17:05,122 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 100  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:17:06,818 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 101 EpochTime = 1.692 (s) Losses = ['0.0034', '100.0000'] lr = 0.001206
+2026-02-12 17:17:08,553 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 101  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:17:10,329 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 102 EpochTime = 1.771 (s) Losses = ['0.0031', '100.0000'] lr = 0.001161
+2026-02-12 17:17:12,062 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 102  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:17:13,857 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 103 EpochTime = 1.792 (s) Losses = ['0.0026', '100.0000'] lr = 0.001117
+2026-02-12 17:17:15,742 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 103  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:17:17,568 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 104 EpochTime = 1.821 (s) Losses = ['0.0029', '100.0000'] lr = 0.001074
+2026-02-12 17:17:19,270 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 104  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:17:21,102 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 105 EpochTime = 1.822 (s) Losses = ['0.0019', '100.0000'] lr = 0.001031
+2026-02-12 17:17:22,646 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 105  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:17:24,218 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 106 EpochTime = 1.570 (s) Losses = ['0.0044', '100.0000'] lr = 0.000989
+2026-02-12 17:17:25,760 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 106  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:17:27,263 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 107 EpochTime = 1.501 (s) Losses = ['0.0028', '100.0000'] lr = 0.000948
+2026-02-12 17:17:28,866 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 107  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:17:30,647 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 108 EpochTime = 1.777 (s) Losses = ['0.0032', '100.0000'] lr = 0.000907
+2026-02-12 17:17:32,359 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 108  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:17:34,365 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 109 EpochTime = 2.004 (s) Losses = ['0.0024', '100.0000'] lr = 0.000867
+2026-02-12 17:17:36,202 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 109  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:17:37,959 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 110 EpochTime = 1.753 (s) Losses = ['0.0020', '100.0000'] lr = 0.000828
+2026-02-12 17:17:39,760 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 110  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:17:41,516 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 111 EpochTime = 1.753 (s) Losses = ['0.0047', '100.0000'] lr = 0.000789
+2026-02-12 17:17:43,309 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 111  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:17:45,093 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 112 EpochTime = 1.781 (s) Losses = ['0.0038', '100.0000'] lr = 0.000752
+2026-02-12 17:17:47,049 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 112  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:17:48,959 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 113 EpochTime = 1.907 (s) Losses = ['0.0029', '100.0000'] lr = 0.000715
+2026-02-12 17:17:50,998 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 113  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:17:52,875 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 114 EpochTime = 1.873 (s) Losses = ['0.0028', '100.0000'] lr = 0.000678
+2026-02-12 17:17:55,011 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 114  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:17:56,721 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 115 EpochTime = 1.705 (s) Losses = ['0.0018', '100.0000'] lr = 0.000643
+2026-02-12 17:17:58,451 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 115  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:17:59,978 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 116 EpochTime = 1.524 (s) Losses = ['0.0081', '100.0000'] lr = 0.000608
+2026-02-12 17:18:01,562 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 116  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:18:03,280 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 117 EpochTime = 1.715 (s) Losses = ['0.0037', '100.0000'] lr = 0.000575
+2026-02-12 17:18:05,197 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 117  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:18:06,875 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 118 EpochTime = 1.675 (s) Losses = ['0.0032', '100.0000'] lr = 0.000542
+2026-02-12 17:18:08,940 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 118  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:18:10,688 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 119 EpochTime = 1.745 (s) Losses = ['0.0040', '100.0000'] lr = 0.000510
+2026-02-12 17:18:12,546 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 119  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:18:14,197 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 120 EpochTime = 1.647 (s) Losses = ['0.0025', '100.0000'] lr = 0.000478
+2026-02-12 17:18:16,165 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 120  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:18:17,894 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 121 EpochTime = 1.724 (s) Losses = ['0.0041', '100.0000'] lr = 0.000448
+2026-02-12 17:18:19,809 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 121  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:18:21,815 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 122 EpochTime = 2.003 (s) Losses = ['0.0029', '100.0000'] lr = 0.000419
+2026-02-12 17:18:23,603 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 122  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:18:25,343 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 123 EpochTime = 1.737 (s) Losses = ['0.0027', '100.0000'] lr = 0.000390
+2026-02-12 17:18:26,997 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 123  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:18:28,655 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 124 EpochTime = 1.655 (s) Losses = ['0.0028', '100.0000'] lr = 0.000363
+2026-02-12 17:18:30,506 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 124  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:18:32,419 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 125 EpochTime = 1.909 (s) Losses = ['0.0025', '100.0000'] lr = 0.000336
+2026-02-12 17:18:34,261 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 125  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:18:36,121 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 126 EpochTime = 1.857 (s) Losses = ['0.0027', '100.0000'] lr = 0.000310
+2026-02-12 17:18:37,947 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 126  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:18:39,772 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 127 EpochTime = 1.821 (s) Losses = ['0.0032', '100.0000'] lr = 0.000285
+2026-02-12 17:18:41,866 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 127  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:18:43,767 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 128 EpochTime = 1.897 (s) Losses = ['0.0035', '100.0000'] lr = 0.000262
+2026-02-12 17:18:45,733 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 128  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:18:47,525 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 129 EpochTime = 1.787 (s) Losses = ['0.0022', '100.0000'] lr = 0.000239
+2026-02-12 17:18:49,376 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 129  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:18:51,198 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 130 EpochTime = 1.818 (s) Losses = ['0.0041', '100.0000'] lr = 0.000217
+2026-02-12 17:18:52,899 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 130  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:18:54,719 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 131 EpochTime = 1.817 (s) Losses = ['0.0045', '100.0000'] lr = 0.000196
+2026-02-12 17:18:56,578 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 131  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:18:58,321 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 132 EpochTime = 1.739 (s) Losses = ['0.0028', '100.0000'] lr = 0.000177
+2026-02-12 17:19:00,247 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 132  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:19:02,038 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 133 EpochTime = 1.787 (s) Losses = ['0.0048', '100.0000'] lr = 0.000158
+2026-02-12 17:19:03,648 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 133  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:19:05,450 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 134 EpochTime = 1.799 (s) Losses = ['0.0018', '100.0000'] lr = 0.000140
+2026-02-12 17:19:07,384 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 134  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:19:09,171 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 135 EpochTime = 1.785 (s) Losses = ['0.0018', '100.0000'] lr = 0.000123
+2026-02-12 17:19:11,019 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 135  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:19:12,826 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 136 EpochTime = 1.804 (s) Losses = ['0.0036', '100.0000'] lr = 0.000108
+2026-02-12 17:19:14,639 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 136  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:19:16,432 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 137 EpochTime = 1.791 (s) Losses = ['0.0046', '100.0000'] lr = 0.000093
+2026-02-12 17:19:18,327 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 137  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:19:20,208 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 138 EpochTime = 1.877 (s) Losses = ['0.0019', '100.0000'] lr = 0.000080
+2026-02-12 17:19:21,945 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 138  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:19:23,670 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 139 EpochTime = 1.722 (s) Losses = ['0.0059', '100.0000'] lr = 0.000067
+2026-02-12 17:19:25,437 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 139  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:19:27,120 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 140 EpochTime = 1.679 (s) Losses = ['0.0043', '100.0000'] lr = 0.000056
+2026-02-12 17:19:28,890 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 140  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:19:30,814 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 141 EpochTime = 1.920 (s) Losses = ['0.0016', '100.0000'] lr = 0.000045
+2026-02-12 17:19:32,631 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 141  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:19:34,389 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 142 EpochTime = 1.755 (s) Losses = ['0.0061', '100.0000'] lr = 0.000036
+2026-02-12 17:19:36,140 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 142  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:19:37,752 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 143 EpochTime = 1.608 (s) Losses = ['0.0049', '100.0000'] lr = 0.000028
+2026-02-12 17:19:39,486 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 143  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:19:41,362 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 144 EpochTime = 1.873 (s) Losses = ['0.0017', '100.0000'] lr = 0.000021
+2026-02-12 17:19:43,049 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 144  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:19:44,813 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 145 EpochTime = 1.760 (s) Losses = ['0.0020', '100.0000'] lr = 0.000015
+2026-02-12 17:19:46,166 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 145  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:19:47,583 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 146 EpochTime = 1.415 (s) Losses = ['0.0030', '100.0000'] lr = 0.000010
+2026-02-12 17:19:49,008 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 146  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:19:50,460 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 147 EpochTime = 1.449 (s) Losses = ['0.0037', '100.0000'] lr = 0.000006
+2026-02-12 17:19:51,906 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 147  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:19:53,343 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 148 EpochTime = 1.435 (s) Losses = ['0.0021', '100.0000'] lr = 0.000003
+2026-02-12 17:19:54,735 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 148  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:19:56,034 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 149 EpochTime = 1.296 (s) Losses = ['0.0018', '100.0000'] lr = 0.000002
+2026-02-12 17:19:57,446 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 149  acc = 100.0000, best_acc = 100.0000
+2026-02-12 17:19:58,756 - tmp_aug_test_seed2 - INFO - [Training] EPOCH: 150 EpochTime = 1.307 (s) Losses = ['0.0029', '100.0000'] lr = 0.000001
+2026-02-12 17:20:00,307 - tmp_aug_test_seed2 - INFO - [Validation] EPOCH: 150  acc = 100.0000, best_acc = 100.0000

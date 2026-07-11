@@ -1,0 +1,156 @@
+Create experiment path successfully at ./experiments/tmp_aug_test_seed26/mlp_cfgs/test_/irip/yanxu_2023/gumble-test/experiments_modelnet_voting_mlp/seeds/aug_test_seed26
+Create TFBoard path successfully at ./experiments/tmp_aug_test_seed26/mlp_cfgs/TFBoard/test_/irip/yanxu_2023/gumble-test/experiments_modelnet_voting_mlp/seeds/aug_test_seed26
+2026-02-12 12:29:33,251 - tmp_aug_test_seed26 - INFO - Copy the Config file from /irip/yanxu_2023/gumble-test/mlp_cfgs/tmp_aug_test_seed26.yaml to ./experiments/tmp_aug_test_seed26/mlp_cfgs/test_/irip/yanxu_2023/gumble-test/experiments_modelnet_voting_mlp/seeds/aug_test_seed26/config.yaml
+2026-02-12 12:29:33,251 - tmp_aug_test_seed26 - INFO - args.config : /irip/yanxu_2023/gumble-test/mlp_cfgs/tmp_aug_test_seed26.yaml
+2026-02-12 12:29:33,251 - tmp_aug_test_seed26 - INFO - args.launcher : none
+2026-02-12 12:29:33,251 - tmp_aug_test_seed26 - INFO - args.local_rank : 0
+2026-02-12 12:29:33,251 - tmp_aug_test_seed26 - INFO - args.num_workers : 8
+2026-02-12 12:29:33,251 - tmp_aug_test_seed26 - INFO - args.rate : 1.0
+2026-02-12 12:29:33,251 - tmp_aug_test_seed26 - INFO - args.seed : 0
+2026-02-12 12:29:33,251 - tmp_aug_test_seed26 - INFO - args.deterministic : False
+2026-02-12 12:29:33,251 - tmp_aug_test_seed26 - INFO - args.sync_bn : False
+2026-02-12 12:29:33,251 - tmp_aug_test_seed26 - INFO - args.exp_name : test_/irip/yanxu_2023/gumble-test/experiments_modelnet_voting_mlp/seeds/aug_test_seed26
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - args.loss : cd1
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - args.start_ckpts : None
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - args.ckpts : /irip/yanxu_2023/gumble-test/experiments_modelnet_mlp/best_seed/aug_test_seed44/ckpt-best.pth
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - args.val_freq : 1
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - args.vote : True
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - args.resume : False
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - args.test : True
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - args.finetune_model : False
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - args.scratch_model : False
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - args.mode : None
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - args.way : -1
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - args.shot : -1
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - args.fold : -1
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - args.experiment_path : ./experiments/tmp_aug_test_seed26/mlp_cfgs/test_/irip/yanxu_2023/gumble-test/experiments_modelnet_voting_mlp/seeds/aug_test_seed26
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - args.tfboard_path : ./experiments/tmp_aug_test_seed26/mlp_cfgs/TFBoard/test_/irip/yanxu_2023/gumble-test/experiments_modelnet_voting_mlp/seeds/aug_test_seed26
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - args.log_name : tmp_aug_test_seed26
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - args.use_gpu : True
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - args.distributed : False
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - config.dataset = edict()
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - config.dataset.test = edict()
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - config.dataset.test._base_ = edict()
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - config.dataset.test._base_.NAME : ModelNet
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - config.dataset.test._base_.DATA_PATH : ./data/ModelNet/modelnet40_normal_resampled
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - config.dataset.test._base_.N_POINTS : 8192
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - config.dataset.test._base_.NUM_CATEGORY : 40
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - config.dataset.test._base_.USE_NORMALS : False
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - config.dataset.test.others = edict()
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - config.dataset.test.others.subset : test
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - config.dataset.test.others.bs : 32
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - config.dataset.train = edict()
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - config.dataset.train._base_ = edict()
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - config.dataset.train._base_.NAME : ModelNet
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - config.dataset.train._base_.DATA_PATH : ./data/ModelNet/modelnet40_normal_resampled
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - config.dataset.train._base_.N_POINTS : 8192
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - config.dataset.train._base_.NUM_CATEGORY : 40
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - config.dataset.train._base_.USE_NORMALS : False
+2026-02-12 12:29:33,252 - tmp_aug_test_seed26 - INFO - config.dataset.train.others = edict()
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.dataset.train.others.subset : train
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.dataset.train.others.bs : 32
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.dataset.val = edict()
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.dataset.val._base_ = edict()
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.dataset.val._base_.NAME : ModelNet
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.dataset.val._base_.DATA_PATH : ./data/ModelNet/modelnet40_normal_resampled
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.dataset.val._base_.N_POINTS : 8192
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.dataset.val._base_.NUM_CATEGORY : 40
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.dataset.val._base_.USE_NORMALS : False
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.dataset.val.others = edict()
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.dataset.val.others.subset : test
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.dataset.val.others.bs : 64
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.grad_norm_clip : 10
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.max_epoch : 200
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.model = edict()
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.model.NAME : PointTransformer
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.model.cls_dim : 40
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.model.depth : 12
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.model.drop_path_rate : 0.2
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.model.ema_decay : 0.999
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.model.encoder_dims : 384
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.model.feat_agg : mean_max
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.model.group_size : 32
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.model.head_dp : 0.5
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.model.num_group : 64
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.model.num_heads : 6
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.model.smoothing : 0.0
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.model.trans_dim : 384
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.model.type : mlp3
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.npoints : 1024
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.optimizer = edict()
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.optimizer.head = edict()
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.optimizer.head.lr : 2e-3
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.optimizer.head.weight_decay : 0.05
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.optimizer.kwargs = edict()
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.optimizer.kwargs.lr : 1.4e-05
+2026-02-12 12:29:33,253 - tmp_aug_test_seed26 - INFO - config.optimizer.kwargs.weight_decay : 0.035
+2026-02-12 12:29:33,254 - tmp_aug_test_seed26 - INFO - config.optimizer.type : AdamW
+2026-02-12 12:29:33,254 - tmp_aug_test_seed26 - INFO - config.scheduler = edict()
+2026-02-12 12:29:33,254 - tmp_aug_test_seed26 - INFO - config.scheduler.kwargs = edict()
+2026-02-12 12:29:33,254 - tmp_aug_test_seed26 - INFO - config.scheduler.kwargs.epochs : 200
+2026-02-12 12:29:33,254 - tmp_aug_test_seed26 - INFO - config.scheduler.kwargs.initial_epochs : 10
+2026-02-12 12:29:33,254 - tmp_aug_test_seed26 - INFO - config.scheduler.type : CosLR
+2026-02-12 12:29:33,254 - tmp_aug_test_seed26 - INFO - config.seed : 26
+2026-02-12 12:29:33,254 - tmp_aug_test_seed26 - INFO - config.step_per_update : 1
+2026-02-12 12:29:33,254 - tmp_aug_test_seed26 - INFO - config.total_bs : 32
+2026-02-12 12:29:33,254 - tmp_aug_test_seed26 - INFO - Distributed training: False
+2026-02-12 12:29:33,254 - tmp_aug_test_seed26 - INFO - Set random seed to 26, deterministic: False
+2026-02-12 12:29:33,254 - tmp_aug_test_seed26 - INFO - Tester start ... 
+2026-02-12 12:29:33,260 - ModelNet - INFO - The size of test data is 2468
+2026-02-12 12:29:33,261 - ModelNet - INFO - Load processed data from ./data/ModelNet/modelnet40_normal_resampled/modelnet40_test_8192pts_fps.dat...
+2026-02-12 12:29:33,914 - tmp_aug_test_seed26 - INFO - Loading weights from /irip/yanxu_2023/gumble-test/experiments_modelnet_mlp/best_seed/aug_test_seed44/ckpt-best.pth...
+2026-02-12 12:29:34,044 - tmp_aug_test_seed26 - INFO - ckpts @ 142 epoch( performance = {'acc': tensor(93.0308)})
+2026-02-12 12:29:42,665 - tmp_aug_test_seed26 - INFO - [TEST] acc = 93.0308
+2026-02-12 12:29:42,666 - tmp_aug_test_seed26 - INFO - [TEST_VOTE]
+2026-02-12 12:29:59,489 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 1]  acc = 93.0308, best acc = 93.0308
+2026-02-12 12:30:15,949 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 2]  acc = 92.8687, best acc = 93.0308
+2026-02-12 12:30:32,403 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 3]  acc = 92.9903, best acc = 93.0308
+2026-02-12 12:30:49,317 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 4]  acc = 92.9498, best acc = 93.0308
+2026-02-12 12:31:06,196 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 5]  acc = 92.7066, best acc = 93.0308
+2026-02-12 12:31:23,110 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 6]  acc = 92.9092, best acc = 93.0308
+2026-02-12 12:31:39,898 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 7]  acc = 92.7877, best acc = 93.0308
+2026-02-12 12:31:56,909 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 8]  acc = 92.9092, best acc = 93.0308
+2026-02-12 12:32:13,873 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 9]  acc = 92.7877, best acc = 93.0308
+2026-02-12 12:32:30,735 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 10]  acc = 92.8687, best acc = 93.0308
+2026-02-12 12:32:47,736 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 11]  acc = 92.6661, best acc = 93.0308
+2026-02-12 12:33:04,520 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 12]  acc = 92.9903, best acc = 93.0308
+2026-02-12 12:33:21,518 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 13]  acc = 92.8687, best acc = 93.0308
+2026-02-12 12:33:38,735 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 14]  acc = 92.7877, best acc = 93.0308
+2026-02-12 12:33:55,933 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 15]  acc = 92.7877, best acc = 93.0308
+2026-02-12 12:34:12,971 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 16]  acc = 92.9092, best acc = 93.0308
+2026-02-12 12:34:30,310 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 17]  acc = 93.3144, best acc = 93.3144
+2026-02-12 12:34:47,487 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 18]  acc = 92.7877, best acc = 93.3144
+2026-02-12 12:35:04,684 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 19]  acc = 93.0308, best acc = 93.3144
+2026-02-12 12:35:22,190 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 20]  acc = 93.0308, best acc = 93.3144
+2026-02-12 12:35:39,752 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 21]  acc = 93.1118, best acc = 93.3144
+2026-02-12 12:35:57,313 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 22]  acc = 92.9498, best acc = 93.3144
+2026-02-12 12:36:14,827 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 23]  acc = 92.8687, best acc = 93.3144
+2026-02-12 12:36:32,421 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 24]  acc = 92.9903, best acc = 93.3144
+2026-02-12 12:36:50,146 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 25]  acc = 92.9498, best acc = 93.3144
+2026-02-12 12:37:07,840 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 26]  acc = 93.0308, best acc = 93.3144
+2026-02-12 12:37:25,821 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 27]  acc = 92.5851, best acc = 93.3144
+2026-02-12 12:37:43,546 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 28]  acc = 93.1118, best acc = 93.3144
+2026-02-12 12:38:00,859 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 29]  acc = 93.0713, best acc = 93.3144
+2026-02-12 12:38:18,193 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 30]  acc = 92.9903, best acc = 93.3144
+2026-02-12 12:38:35,851 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 31]  acc = 92.9903, best acc = 93.3144
+2026-02-12 12:38:53,129 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 32]  acc = 93.0308, best acc = 93.3144
+2026-02-12 12:39:10,457 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 33]  acc = 92.8282, best acc = 93.3144
+2026-02-12 12:39:27,538 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 34]  acc = 93.0713, best acc = 93.3144
+2026-02-12 12:39:44,959 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 35]  acc = 92.7877, best acc = 93.3144
+2026-02-12 12:40:02,490 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 36]  acc = 92.9498, best acc = 93.3144
+2026-02-12 12:40:19,934 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 37]  acc = 92.6256, best acc = 93.3144
+2026-02-12 12:40:37,396 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 38]  acc = 92.5851, best acc = 93.3144
+2026-02-12 12:40:55,040 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 39]  acc = 92.8687, best acc = 93.3144
+2026-02-12 12:41:12,394 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 40]  acc = 92.9498, best acc = 93.3144
+2026-02-12 12:41:30,321 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 41]  acc = 93.0308, best acc = 93.3144
+2026-02-12 12:41:47,790 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 42]  acc = 92.9498, best acc = 93.3144
+2026-02-12 12:42:05,274 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 43]  acc = 93.1118, best acc = 93.3144
+2026-02-12 12:42:22,442 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 44]  acc = 93.1929, best acc = 93.3144
+2026-02-12 12:42:40,805 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 45]  acc = 93.0713, best acc = 93.3144
+2026-02-12 12:42:58,190 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 46]  acc = 92.9092, best acc = 93.3144
+2026-02-12 12:43:15,475 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 47]  acc = 92.8687, best acc = 93.3144
+2026-02-12 12:43:33,196 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 48]  acc = 93.5981, best acc = 93.5981
+2026-02-12 12:43:50,634 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 49]  acc = 92.8687, best acc = 93.5981
+2026-02-12 12:44:07,891 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 50]  acc = 92.9903, best acc = 93.5981
+2026-02-12 12:44:25,158 - tmp_aug_test_seed26 - INFO - [TEST_VOTE_time 51]  acc = 93.0308, best acc = 93.5981
+2026-02-12 12:44:25,158 - tmp_aug_test_seed26 - INFO - [TEST_VOTE] acc = 93.5981

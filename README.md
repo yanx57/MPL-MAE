@@ -132,16 +132,26 @@ bash run.sh   # remember to modify the paths inside run.sh
 
 We provide pre-trained checkpoints and full experiment logs (training curves, evaluation outputs) for reproducing the results reported in the paper.
 
-| Task | Dataset | Config | Checkpoint | Log |
-| --- | --- | --- | --- | --- |
-| Pre-training | ShapeNet | `cfgs/pretrain/base.yaml` | [ckpt-epoch-300.pth](ckpts/ckpt-epoch-300.pth) | [log](logs/pretrain.log) |
-| Classification | ScanObjectNN (hardest) | `cfgs/finetune_scan_hardest.yaml` | coming soon | [log](logs/finetune_scan_hardest.log) |
-| Classification | ModelNet40 | `cfgs/finetune_modelnet.yaml` | coming soon | [log](logs/finetune_modelnet.log) |
-| Few-shot | ModelNet40 | `cfgs/fewshot.yaml` | coming soon | [log](logs/fewshot.log) |
-| Segmentation | S3DIS | `semantic_segmentation/` | coming soon | [log](logs/s3dis.log) |
-| Registration | DCP (ModelNet40) | `registry/` | coming soon | [log](logs/registration.log) |
-| Reconstruction | PCN | `recon/` | coming soon | [log](logs/reconstruction.log) |
+| Task | Setting | Checkpoint | Log |
+| --- | --- | --- | --- |
+| Pre-training | ShapeNet | [ckpt-epoch-300.pth](https://github.com/yanx57/MPL-MAE/releases/download/v0.1-pretrain/ckpt-epoch-300.pth) | coming soon |
+| Classification | ScanObjectNN OBJ_BG — full finetune | coming soon | [log](log/scanobj_bg_fullfinetune) |
+| Classification | ScanObjectNN OBJ_BG — MLP head | coming soon | [log](log/scanobj_bg_mlp) |
+| Classification | ScanObjectNN OBJ_BG — linear probe | coming soon | [log](log/scanobj_bg_linear) |
+| Classification | ScanObjectNN OBJ_ONLY — full finetune | coming soon | [log](log/scanobj_only_fullfinetune) |
+| Classification | ScanObjectNN OBJ_ONLY — MLP head | coming soon | [log](log/scanobj_only_mlp) |
+| Classification | ScanObjectNN OBJ_ONLY — linear probe | coming soon | [log](log/scanobj_only_linear) |
+| Classification | ScanObjectNN PB_T50_RS (hardest) — full finetune | coming soon | [log](log/PB-T50-fullfinetune) |
+| Classification | ScanObjectNN PB_T50_RS (hardest) — MLP head | coming soon | [log](log/PB-T50-mlp) |
+| Classification | ScanObjectNN PB_T50_RS (hardest) — linear probe | coming soon | [log](log/PB-T50-linear) |
+| Classification | ModelNet40 — full finetune (no vote) | coming soon | [log](log/modelnet40_no_vote_fullfinetune) |
+| Classification | ModelNet40 — full finetune (voting) | coming soon | [log](log/modelnet40_fullfinetune_vote) |
+| Classification | ModelNet40 — MLP head (no vote) | coming soon | [log](log/modelnet40_mlp_no_vote) |
+| Classification | ModelNet40 — MLP head (voting) | coming soon | [log](log/modelnet40_mlp_voting) |
+| Classification | ModelNet40 — linear probe (no vote) | coming soon | [log](log/modelnet40_linear_no_vote) |
+| Classification | ModelNet40 — linear probe (voting) | coming soon | [log](log/modelnet40_linear_voting) |
+| Few-shot | ModelNet40 | coming soon | [log](log/fewshot_experiments) |
 
-> Checkpoints will be released after the code cleanup. Log paths above point to files under `logs/` in this repository.
+> Fine-tuning / probing checkpoints will be released after the code cleanup. Log links above point to the corresponding experiment folders under `log/` in this repository.
 
 ## Citation

@@ -1,0 +1,936 @@
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - Copy the Config file from /irip/yanxu_2023/gumble-test/tmp_cfgs/tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20.yaml to /irip/yanxu_2023/gumble-test/experiments/ft_objbg-finetune_grid_b/aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20/config.yaml
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.config : /irip/yanxu_2023/gumble-test/tmp_cfgs/tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20.yaml
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.launcher : none
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.local_rank : 0
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.num_workers : 8
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.rate : 1.0
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.seed : 0
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.deterministic : False
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.sync_bn : False
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.exp_name : /irip/yanxu_2023/gumble-test/experiments/ft_objbg-finetune_grid_b/aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.loss : cd1
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.start_ckpts : None
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.ckpts : /irip/yanxu_2023/gumble-test/ckpt-epoch-300.pth
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.val_freq : 1
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.vote : False
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.resume : False
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.test : False
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.finetune_model : True
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.scratch_model : False
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.mode : None
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.way : -1
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.shot : -1
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.fold : -1
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.experiment_path : /irip/yanxu_2023/gumble-test/experiments/ft_objbg-finetune_grid_b/aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.tfboard_path : /irip/yanxu_2023/gumble-test/experiments/ft_objbg-finetune_grid_b/aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.log_name : tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.use_gpu : True
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - args.distributed : False
+2026-02-03 10:07:06,267 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset = edict()
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset.test = edict()
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset.test._base_ = edict()
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset.test._base_.NAME : ScanObjectNN
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset.test._base_.ROOT : ./data/ScanObjectNN/main_split
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset.test.others = edict()
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset.test.others.subset : test
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset.test.others.bs : 32
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset.train = edict()
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset.train._base_ = edict()
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset.train._base_.NAME : ScanObjectNN
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset.train._base_.ROOT : ./data/ScanObjectNN/main_split
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset.train.others = edict()
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset.train.others.subset : train
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset.train.others.bs : 32
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset.val = edict()
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset.val._base_ = edict()
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset.val._base_.NAME : ScanObjectNN
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset.val._base_.ROOT : ./data/ScanObjectNN/main_split
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset.val.others = edict()
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset.val.others.subset : test
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.dataset.val.others.bs : 64
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.grad_norm_clip : 10
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.max_epoch : 300
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.model = edict()
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.model.NAME : PointTransformer
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.model.cls_dim : 15
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.model.depth : 12
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.model.drop_path_rate : 0.0
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.model.encoder_dims : 384
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.model.group_size : 32
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.model.head_dp : 0.5
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.model.num_group : 128
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.model.num_heads : 6
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.model.trans_dim : 384
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.model.type : full
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.npoints : 2048
+2026-02-03 10:07:06,268 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.optimizer = edict()
+2026-02-03 10:07:06,269 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.optimizer.head = edict()
+2026-02-03 10:07:06,269 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.optimizer.head.lr : 0.00027
+2026-02-03 10:07:06,269 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.optimizer.head.weight_decay : 0.015
+2026-02-03 10:07:06,269 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.optimizer.kwargs = edict()
+2026-02-03 10:07:06,269 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.optimizer.kwargs.lr : 2e-05
+2026-02-03 10:07:06,269 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.optimizer.kwargs.weight_decay : 0.05
+2026-02-03 10:07:06,269 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.optimizer.type : AdamW
+2026-02-03 10:07:06,269 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.scheduler = edict()
+2026-02-03 10:07:06,269 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.scheduler.kwargs = edict()
+2026-02-03 10:07:06,269 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.scheduler.kwargs.epochs : 300
+2026-02-03 10:07:06,269 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.scheduler.kwargs.initial_epochs : 10
+2026-02-03 10:07:06,269 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.scheduler.type : CosLR
+2026-02-03 10:07:06,269 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.seed : 20
+2026-02-03 10:07:06,269 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.step_per_update : 1
+2026-02-03 10:07:06,269 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - config.total_bs : 32
+2026-02-03 10:07:06,269 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - Distributed training: False
+2026-02-03 10:07:06,269 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - Set random seed to 20, deterministic: False
+Successfully load ScanObjectNN shape of (2309, 2048, 3)
+Successfully load ScanObjectNN shape of (581, 2048, 3)
+2026-02-03 10:07:12,199 - Transformer - INFO - missing_keys
+2026-02-03 10:07:12,200 - Transformer - INFO - Some model parameters or buffers are not found in the checkpoint:
+  cls_token
+  cls_pos
+  cls_head_finetune.0.{weight, bias}
+  cls_head_finetune.1.{weight, bias, running_mean, running_var}
+  cls_head_finetune.4.{weight, bias}
+  cls_head_finetune.5.{weight, bias, running_mean, running_var}
+  cls_head_finetune.8.{weight, bias}
+2026-02-03 10:07:12,200 - Transformer - INFO - unexpected_keys
+2026-02-03 10:07:12,200 - Transformer - INFO - The checkpoint state_dict contains keys that are not used by the model:
+  mask_token
+  MAE_decoder.blocks.0.norm1.{weight, bias}
+  MAE_decoder.blocks.0.norm2.{weight, bias}
+  MAE_decoder.blocks.0.mlp.fc1.{weight, bias}
+  MAE_decoder.blocks.0.mlp.fc2.{weight, bias}
+  MAE_decoder.blocks.0.attn.qkv.weight
+  MAE_decoder.blocks.0.attn.proj.{weight, bias}
+  MAE_decoder.blocks.1.norm1.{weight, bias}
+  MAE_decoder.blocks.1.norm2.{weight, bias}
+  MAE_decoder.blocks.1.mlp.fc1.{weight, bias}
+  MAE_decoder.blocks.1.mlp.fc2.{weight, bias}
+  MAE_decoder.blocks.1.attn.qkv.weight
+  MAE_decoder.blocks.1.attn.proj.{weight, bias}
+  MAE_decoder.blocks.2.norm1.{weight, bias}
+  MAE_decoder.blocks.2.norm2.{weight, bias}
+  MAE_decoder.blocks.2.mlp.fc1.{weight, bias}
+  MAE_decoder.blocks.2.mlp.fc2.{weight, bias}
+  MAE_decoder.blocks.2.attn.qkv.weight
+  MAE_decoder.blocks.2.attn.proj.{weight, bias}
+  MAE_decoder.blocks.3.norm1.{weight, bias}
+  MAE_decoder.blocks.3.norm2.{weight, bias}
+  MAE_decoder.blocks.3.mlp.fc1.{weight, bias}
+  MAE_decoder.blocks.3.mlp.fc2.{weight, bias}
+  MAE_decoder.blocks.3.attn.qkv.weight
+  MAE_decoder.blocks.3.attn.proj.{weight, bias}
+  MAE_decoder.gates.0.gate.{weight, bias}
+  MAE_decoder.gates.1.gate.{weight, bias}
+  MAE_decoder.gates.2.gate.{weight, bias}
+  MAE_decoder.gates.3.gate.{weight, bias}
+  MAE_decoder.norm.{weight, bias}
+  decoder_pos_embed.0.weight
+  decoder_pos_embed.2.weight
+  increase_dim.0.{weight, bias}
+  mask_pos_token
+2026-02-03 10:07:12,200 - Transformer - INFO - [Transformer] Successful Loading the ckpt from /irip/yanxu_2023/gumble-test/ckpt-epoch-300.pth
+2026-02-03 10:07:12,230 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - Using Data parallel ...
+trainable parameters: 
+cls_token
+10 * LR:  cls_token
+cls_pos
+10 * LR:  cls_pos
+encoder.first_conv.0.weight
+encoder.first_conv.0.bias
+encoder.first_conv.1.weight
+encoder.first_conv.1.bias
+encoder.first_conv.3.weight
+encoder.first_conv.3.bias
+encoder.second_conv.0.weight
+encoder.second_conv.0.bias
+encoder.second_conv.1.weight
+encoder.second_conv.1.bias
+encoder.second_conv.3.weight
+encoder.second_conv.3.bias
+pos_embed.0.weight
+pos_embed.0.bias
+pos_embed.2.weight
+pos_embed.2.bias
+blocks.blocks.0.norm1.weight
+blocks.blocks.0.norm1.bias
+blocks.blocks.0.norm2.weight
+blocks.blocks.0.norm2.bias
+blocks.blocks.0.mlp.fc1.weight
+blocks.blocks.0.mlp.fc1.bias
+blocks.blocks.0.mlp.fc2.weight
+blocks.blocks.0.mlp.fc2.bias
+blocks.blocks.0.attn.qkv.weight
+blocks.blocks.0.attn.proj.weight
+blocks.blocks.0.attn.proj.bias
+blocks.blocks.1.norm1.weight
+blocks.blocks.1.norm1.bias
+blocks.blocks.1.norm2.weight
+blocks.blocks.1.norm2.bias
+blocks.blocks.1.mlp.fc1.weight
+blocks.blocks.1.mlp.fc1.bias
+blocks.blocks.1.mlp.fc2.weight
+blocks.blocks.1.mlp.fc2.bias
+blocks.blocks.1.attn.qkv.weight
+blocks.blocks.1.attn.proj.weight
+blocks.blocks.1.attn.proj.bias
+blocks.blocks.2.norm1.weight
+blocks.blocks.2.norm1.bias
+blocks.blocks.2.norm2.weight
+blocks.blocks.2.norm2.bias
+blocks.blocks.2.mlp.fc1.weight
+blocks.blocks.2.mlp.fc1.bias
+blocks.blocks.2.mlp.fc2.weight
+blocks.blocks.2.mlp.fc2.bias
+blocks.blocks.2.attn.qkv.weight
+blocks.blocks.2.attn.proj.weight
+blocks.blocks.2.attn.proj.bias
+blocks.blocks.3.norm1.weight
+blocks.blocks.3.norm1.bias
+blocks.blocks.3.norm2.weight
+blocks.blocks.3.norm2.bias
+blocks.blocks.3.mlp.fc1.weight
+blocks.blocks.3.mlp.fc1.bias
+blocks.blocks.3.mlp.fc2.weight
+blocks.blocks.3.mlp.fc2.bias
+blocks.blocks.3.attn.qkv.weight
+blocks.blocks.3.attn.proj.weight
+blocks.blocks.3.attn.proj.bias
+blocks.blocks.4.norm1.weight
+blocks.blocks.4.norm1.bias
+blocks.blocks.4.norm2.weight
+blocks.blocks.4.norm2.bias
+blocks.blocks.4.mlp.fc1.weight
+blocks.blocks.4.mlp.fc1.bias
+blocks.blocks.4.mlp.fc2.weight
+blocks.blocks.4.mlp.fc2.bias
+blocks.blocks.4.attn.qkv.weight
+blocks.blocks.4.attn.proj.weight
+blocks.blocks.4.attn.proj.bias
+blocks.blocks.5.norm1.weight
+blocks.blocks.5.norm1.bias
+blocks.blocks.5.norm2.weight
+blocks.blocks.5.norm2.bias
+blocks.blocks.5.mlp.fc1.weight
+blocks.blocks.5.mlp.fc1.bias
+blocks.blocks.5.mlp.fc2.weight
+blocks.blocks.5.mlp.fc2.bias
+blocks.blocks.5.attn.qkv.weight
+blocks.blocks.5.attn.proj.weight
+blocks.blocks.5.attn.proj.bias
+blocks.blocks.6.norm1.weight
+blocks.blocks.6.norm1.bias
+blocks.blocks.6.norm2.weight
+blocks.blocks.6.norm2.bias
+blocks.blocks.6.mlp.fc1.weight
+blocks.blocks.6.mlp.fc1.bias
+blocks.blocks.6.mlp.fc2.weight
+blocks.blocks.6.mlp.fc2.bias
+blocks.blocks.6.attn.qkv.weight
+blocks.blocks.6.attn.proj.weight
+blocks.blocks.6.attn.proj.bias
+blocks.blocks.7.norm1.weight
+blocks.blocks.7.norm1.bias
+blocks.blocks.7.norm2.weight
+blocks.blocks.7.norm2.bias
+blocks.blocks.7.mlp.fc1.weight
+blocks.blocks.7.mlp.fc1.bias
+blocks.blocks.7.mlp.fc2.weight
+blocks.blocks.7.mlp.fc2.bias
+blocks.blocks.7.attn.qkv.weight
+blocks.blocks.7.attn.proj.weight
+blocks.blocks.7.attn.proj.bias
+blocks.blocks.8.norm1.weight
+blocks.blocks.8.norm1.bias
+blocks.blocks.8.norm2.weight
+blocks.blocks.8.norm2.bias
+blocks.blocks.8.mlp.fc1.weight
+blocks.blocks.8.mlp.fc1.bias
+blocks.blocks.8.mlp.fc2.weight
+blocks.blocks.8.mlp.fc2.bias
+blocks.blocks.8.attn.qkv.weight
+blocks.blocks.8.attn.proj.weight
+blocks.blocks.8.attn.proj.bias
+blocks.blocks.9.norm1.weight
+blocks.blocks.9.norm1.bias
+blocks.blocks.9.norm2.weight
+blocks.blocks.9.norm2.bias
+blocks.blocks.9.mlp.fc1.weight
+blocks.blocks.9.mlp.fc1.bias
+blocks.blocks.9.mlp.fc2.weight
+blocks.blocks.9.mlp.fc2.bias
+blocks.blocks.9.attn.qkv.weight
+blocks.blocks.9.attn.proj.weight
+blocks.blocks.9.attn.proj.bias
+blocks.blocks.10.norm1.weight
+blocks.blocks.10.norm1.bias
+blocks.blocks.10.norm2.weight
+blocks.blocks.10.norm2.bias
+blocks.blocks.10.mlp.fc1.weight
+blocks.blocks.10.mlp.fc1.bias
+blocks.blocks.10.mlp.fc2.weight
+blocks.blocks.10.mlp.fc2.bias
+blocks.blocks.10.attn.qkv.weight
+blocks.blocks.10.attn.proj.weight
+blocks.blocks.10.attn.proj.bias
+blocks.blocks.11.norm1.weight
+blocks.blocks.11.norm1.bias
+blocks.blocks.11.norm2.weight
+blocks.blocks.11.norm2.bias
+blocks.blocks.11.mlp.fc1.weight
+blocks.blocks.11.mlp.fc1.bias
+blocks.blocks.11.mlp.fc2.weight
+blocks.blocks.11.mlp.fc2.bias
+blocks.blocks.11.attn.qkv.weight
+blocks.blocks.11.attn.proj.weight
+blocks.blocks.11.attn.proj.bias
+norm.weight
+norm.bias
+cls_head_finetune.0.weight
+10 * LR:  cls_head_finetune.0.weight
+cls_head_finetune.0.bias
+10 * LR:  cls_head_finetune.0.bias
+cls_head_finetune.1.weight
+10 * LR:  cls_head_finetune.1.weight
+cls_head_finetune.1.bias
+10 * LR:  cls_head_finetune.1.bias
+cls_head_finetune.4.weight
+10 * LR:  cls_head_finetune.4.weight
+cls_head_finetune.4.bias
+10 * LR:  cls_head_finetune.4.bias
+cls_head_finetune.5.weight
+10 * LR:  cls_head_finetune.5.weight
+cls_head_finetune.5.bias
+10 * LR:  cls_head_finetune.5.bias
+cls_head_finetune.8.weight
+10 * LR:  cls_head_finetune.8.weight
+cls_head_finetune.8.bias
+10 * LR:  cls_head_finetune.8.bias
+2026-02-03 10:07:23,055 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 0 EpochTime = 10.815 (s) Losses = ['2.8636', '6.3368'] lr = 0.000001
+2026-02-03 10:07:32,167 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 1 EpochTime = 9.110 (s) Losses = ['2.8255', '6.9444'] lr = 0.000028
+2026-02-03 10:07:34,380 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 1  acc = 11.0155, best_acc = 11.0155
+2026-02-03 10:07:34,382 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:07:43,424 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 2 EpochTime = 9.041 (s) Losses = ['2.6514', '13.8455'] lr = 0.000055
+2026-02-03 10:07:44,951 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 2  acc = 40.1033, best_acc = 40.1033
+2026-02-03 10:07:44,953 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:07:54,021 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 3 EpochTime = 9.067 (s) Losses = ['2.3090', '29.2969'] lr = 0.000082
+2026-02-03 10:07:55,481 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 3  acc = 52.6678, best_acc = 52.6678
+2026-02-03 10:07:55,483 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:08:04,513 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 4 EpochTime = 9.028 (s) Losses = ['1.9878', '42.0139'] lr = 0.000109
+2026-02-03 10:08:05,974 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 4  acc = 54.3890, best_acc = 54.3890
+2026-02-03 10:08:05,977 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:08:14,881 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 5 EpochTime = 8.901 (s) Losses = ['1.6842', '51.9531'] lr = 0.000135
+2026-02-03 10:08:16,429 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 5  acc = 62.1342, best_acc = 62.1342
+2026-02-03 10:08:16,431 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:08:25,513 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 6 EpochTime = 9.080 (s) Losses = ['1.4594', '59.3750'] lr = 0.000162
+2026-02-03 10:08:27,258 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 6  acc = 66.6093, best_acc = 66.6093
+2026-02-03 10:08:27,260 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:08:36,362 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 7 EpochTime = 9.101 (s) Losses = ['1.2417', '66.3628'] lr = 0.000189
+2026-02-03 10:08:38,088 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 7  acc = 73.8382, best_acc = 73.8382
+2026-02-03 10:08:38,090 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:08:47,162 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 8 EpochTime = 9.070 (s) Losses = ['1.0578', '71.6146'] lr = 0.000216
+2026-02-03 10:08:48,799 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 8  acc = 77.1084, best_acc = 77.1084
+2026-02-03 10:08:48,801 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:08:57,793 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 9 EpochTime = 8.990 (s) Losses = ['0.9041', '75.7812'] lr = 0.000243
+2026-02-03 10:08:59,617 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 9  acc = 81.2392, best_acc = 81.2392
+2026-02-03 10:08:59,619 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:09:08,373 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 10 EpochTime = 8.753 (s) Losses = ['0.7712', '79.6007'] lr = 0.000269
+2026-02-03 10:09:10,274 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 10  acc = 84.6816, best_acc = 84.6816
+2026-02-03 10:09:10,284 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:09:19,278 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 11 EpochTime = 8.993 (s) Losses = ['0.6584', '82.1181'] lr = 0.000269
+2026-02-03 10:09:21,102 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 11  acc = 84.1652, best_acc = 84.6816
+2026-02-03 10:09:30,101 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 12 EpochTime = 8.995 (s) Losses = ['0.5703', '84.6354'] lr = 0.000269
+2026-02-03 10:09:32,045 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 12  acc = 86.4028, best_acc = 86.4028
+2026-02-03 10:09:32,052 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:09:41,174 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 13 EpochTime = 9.121 (s) Losses = ['0.5243', '86.9792'] lr = 0.000269
+2026-02-03 10:09:42,994 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 13  acc = 88.1239, best_acc = 88.1239
+2026-02-03 10:09:42,996 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:09:52,476 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 14 EpochTime = 9.478 (s) Losses = ['0.4643', '87.7604'] lr = 0.000269
+2026-02-03 10:09:54,279 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 14  acc = 89.3287, best_acc = 89.3287
+2026-02-03 10:09:54,282 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:10:03,358 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 15 EpochTime = 9.074 (s) Losses = ['0.4118', '88.3681'] lr = 0.000268
+2026-02-03 10:10:05,222 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 15  acc = 88.2960, best_acc = 89.3287
+2026-02-03 10:10:14,458 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 16 EpochTime = 9.234 (s) Losses = ['0.3724', '90.8854'] lr = 0.000268
+2026-02-03 10:10:16,085 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 16  acc = 90.1893, best_acc = 90.1893
+2026-02-03 10:10:16,088 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:10:25,319 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 17 EpochTime = 9.229 (s) Losses = ['0.3658', '89.6701'] lr = 0.000268
+2026-02-03 10:10:27,020 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 17  acc = 89.6730, best_acc = 90.1893
+2026-02-03 10:10:36,392 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 18 EpochTime = 9.368 (s) Losses = ['0.3244', '90.6684'] lr = 0.000268
+2026-02-03 10:10:37,924 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 18  acc = 90.3614, best_acc = 90.3614
+2026-02-03 10:10:37,927 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:10:47,139 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 19 EpochTime = 9.210 (s) Losses = ['0.3121', '90.8420'] lr = 0.000267
+2026-02-03 10:10:48,656 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 19  acc = 90.7057, best_acc = 90.7057
+2026-02-03 10:10:48,658 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:10:57,858 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 20 EpochTime = 9.199 (s) Losses = ['0.2739', '93.0122'] lr = 0.000267
+2026-02-03 10:10:59,322 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 20  acc = 91.3941, best_acc = 91.3941
+2026-02-03 10:10:59,323 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:11:08,572 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 21 EpochTime = 9.247 (s) Losses = ['0.2670', '93.0556'] lr = 0.000267
+2026-02-03 10:11:10,125 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 21  acc = 90.1893, best_acc = 91.3941
+2026-02-03 10:11:19,102 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 22 EpochTime = 8.974 (s) Losses = ['0.2350', '93.8802'] lr = 0.000266
+2026-02-03 10:11:20,654 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 22  acc = 90.8778, best_acc = 91.3941
+2026-02-03 10:11:29,699 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 23 EpochTime = 9.043 (s) Losses = ['0.2096', '94.6615'] lr = 0.000266
+2026-02-03 10:11:31,390 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 23  acc = 90.7057, best_acc = 91.3941
+2026-02-03 10:11:40,461 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 24 EpochTime = 9.070 (s) Losses = ['0.1976', '94.6615'] lr = 0.000266
+2026-02-03 10:11:42,152 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 24  acc = 91.9105, best_acc = 91.9105
+2026-02-03 10:11:42,154 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:11:51,285 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 25 EpochTime = 9.130 (s) Losses = ['0.1969', '94.7049'] lr = 0.000265
+2026-02-03 10:11:53,007 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 25  acc = 91.9105, best_acc = 91.9105
+2026-02-03 10:12:02,136 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 26 EpochTime = 9.127 (s) Losses = ['0.1843', '94.7917'] lr = 0.000265
+2026-02-03 10:12:03,756 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 26  acc = 92.0826, best_acc = 92.0826
+2026-02-03 10:12:03,759 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:12:12,903 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 27 EpochTime = 9.143 (s) Losses = ['0.1518', '96.2240'] lr = 0.000265
+2026-02-03 10:12:14,597 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 27  acc = 92.4268, best_acc = 92.4268
+2026-02-03 10:12:14,599 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:12:23,760 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 28 EpochTime = 9.159 (s) Losses = ['0.1470', '95.6163'] lr = 0.000264
+2026-02-03 10:12:25,498 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 28  acc = 92.7711, best_acc = 92.7711
+2026-02-03 10:12:25,500 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:12:34,712 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 29 EpochTime = 9.211 (s) Losses = ['0.1372', '96.6580'] lr = 0.000264
+2026-02-03 10:12:36,476 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 29  acc = 92.7711, best_acc = 92.7711
+2026-02-03 10:12:45,589 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 30 EpochTime = 9.112 (s) Losses = ['0.1287', '97.0052'] lr = 0.000263
+2026-02-03 10:12:47,201 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 30  acc = 91.9105, best_acc = 92.7711
+2026-02-03 10:12:56,336 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 31 EpochTime = 9.132 (s) Losses = ['0.1283', '96.6146'] lr = 0.000263
+2026-02-03 10:12:58,045 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 31  acc = 91.9105, best_acc = 92.7711
+2026-02-03 10:13:07,293 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 32 EpochTime = 9.245 (s) Losses = ['0.1081', '96.9184'] lr = 0.000263
+2026-02-03 10:13:09,021 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 32  acc = 92.0826, best_acc = 92.7711
+2026-02-03 10:13:18,119 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 33 EpochTime = 9.096 (s) Losses = ['0.1037', '97.0486'] lr = 0.000262
+2026-02-03 10:13:19,639 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 33  acc = 90.5336, best_acc = 92.7711
+2026-02-03 10:13:28,907 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 34 EpochTime = 9.266 (s) Losses = ['0.0935', '97.8733'] lr = 0.000262
+2026-02-03 10:13:30,405 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 34  acc = 92.5990, best_acc = 92.7711
+2026-02-03 10:13:39,530 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 35 EpochTime = 9.123 (s) Losses = ['0.1003', '97.3090'] lr = 0.000261
+2026-02-03 10:13:41,022 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 35  acc = 92.5990, best_acc = 92.7711
+2026-02-03 10:13:50,169 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 36 EpochTime = 9.145 (s) Losses = ['0.0864', '97.6562'] lr = 0.000261
+2026-02-03 10:13:51,609 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 36  acc = 93.4595, best_acc = 93.4595
+2026-02-03 10:13:51,613 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:14:00,781 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 37 EpochTime = 9.166 (s) Losses = ['0.0861', '98.0035'] lr = 0.000260
+2026-02-03 10:14:02,331 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 37  acc = 92.0826, best_acc = 93.4595
+2026-02-03 10:14:11,645 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 38 EpochTime = 9.311 (s) Losses = ['0.0652', '98.3507'] lr = 0.000259
+2026-02-03 10:14:13,223 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 38  acc = 93.2874, best_acc = 93.4595
+2026-02-03 10:14:22,344 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 39 EpochTime = 9.119 (s) Losses = ['0.0759', '98.0903'] lr = 0.000259
+2026-02-03 10:14:23,997 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 39  acc = 93.2874, best_acc = 93.4595
+2026-02-03 10:14:33,199 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 40 EpochTime = 9.201 (s) Losses = ['0.0605', '98.6111'] lr = 0.000258
+2026-02-03 10:14:34,911 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 40  acc = 92.7711, best_acc = 93.4595
+2026-02-03 10:14:44,172 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 41 EpochTime = 9.259 (s) Losses = ['0.0646', '98.3941'] lr = 0.000258
+2026-02-03 10:14:45,847 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 41  acc = 93.4595, best_acc = 93.4595
+2026-02-03 10:14:55,206 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 42 EpochTime = 9.357 (s) Losses = ['0.0641', '98.3941'] lr = 0.000257
+2026-02-03 10:14:56,795 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 42  acc = 93.2874, best_acc = 93.4595
+2026-02-03 10:15:06,083 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 43 EpochTime = 9.286 (s) Losses = ['0.0667', '98.0469'] lr = 0.000257
+2026-02-03 10:15:07,648 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 43  acc = 93.4595, best_acc = 93.4595
+2026-02-03 10:15:17,127 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 44 EpochTime = 9.477 (s) Losses = ['0.0504', '98.5677'] lr = 0.000256
+2026-02-03 10:15:18,694 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 44  acc = 92.2547, best_acc = 93.4595
+2026-02-03 10:15:27,475 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 45 EpochTime = 8.778 (s) Losses = ['0.0405', '99.3924'] lr = 0.000255
+2026-02-03 10:15:29,063 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 45  acc = 92.7711, best_acc = 93.4595
+2026-02-03 10:15:38,392 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 46 EpochTime = 9.326 (s) Losses = ['0.0480', '98.9149'] lr = 0.000255
+2026-02-03 10:15:39,995 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 46  acc = 92.2547, best_acc = 93.4595
+2026-02-03 10:15:49,352 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 47 EpochTime = 9.355 (s) Losses = ['0.0542', '98.2639'] lr = 0.000254
+2026-02-03 10:15:50,875 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 47  acc = 93.6317, best_acc = 93.6317
+2026-02-03 10:15:50,878 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:16:00,182 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 48 EpochTime = 9.302 (s) Losses = ['0.0461', '98.6979'] lr = 0.000253
+2026-02-03 10:16:01,652 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 48  acc = 91.2220, best_acc = 93.6317
+2026-02-03 10:16:11,012 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 49 EpochTime = 9.357 (s) Losses = ['0.0317', '99.4792'] lr = 0.000253
+2026-02-03 10:16:12,589 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 49  acc = 92.5990, best_acc = 93.6317
+2026-02-03 10:16:21,970 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 50 EpochTime = 9.378 (s) Losses = ['0.0350', '99.3490'] lr = 0.000252
+2026-02-03 10:16:23,615 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 50  acc = 92.4268, best_acc = 93.6317
+2026-02-03 10:16:32,880 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 51 EpochTime = 9.261 (s) Losses = ['0.0346', '99.3056'] lr = 0.000251
+2026-02-03 10:16:34,388 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 51  acc = 93.1153, best_acc = 93.6317
+2026-02-03 10:16:43,687 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 52 EpochTime = 9.297 (s) Losses = ['0.0433', '98.8281'] lr = 0.000251
+2026-02-03 10:16:45,558 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 52  acc = 92.0826, best_acc = 93.6317
+2026-02-03 10:16:54,969 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 53 EpochTime = 9.409 (s) Losses = ['0.0355', '99.0017'] lr = 0.000250
+2026-02-03 10:16:56,741 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 53  acc = 92.0826, best_acc = 93.6317
+2026-02-03 10:17:05,987 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 54 EpochTime = 9.243 (s) Losses = ['0.0380', '99.0885'] lr = 0.000249
+2026-02-03 10:17:07,755 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 54  acc = 91.2220, best_acc = 93.6317
+2026-02-03 10:17:17,086 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 55 EpochTime = 9.327 (s) Losses = ['0.0244', '99.5660'] lr = 0.000248
+2026-02-03 10:17:18,857 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 55  acc = 91.9105, best_acc = 93.6317
+2026-02-03 10:17:28,245 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 56 EpochTime = 9.386 (s) Losses = ['0.0375', '98.8715'] lr = 0.000248
+2026-02-03 10:17:30,103 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 56  acc = 93.4595, best_acc = 93.6317
+2026-02-03 10:17:39,357 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 57 EpochTime = 9.251 (s) Losses = ['0.0316', '99.2188'] lr = 0.000247
+2026-02-03 10:17:41,156 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 57  acc = 92.0826, best_acc = 93.6317
+2026-02-03 10:17:50,614 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 58 EpochTime = 9.456 (s) Losses = ['0.0300', '99.2188'] lr = 0.000246
+2026-02-03 10:17:52,217 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 58  acc = 92.2547, best_acc = 93.6317
+2026-02-03 10:18:01,473 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 59 EpochTime = 9.254 (s) Losses = ['0.0335', '99.1753'] lr = 0.000245
+2026-02-03 10:18:03,089 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 59  acc = 93.1153, best_acc = 93.6317
+2026-02-03 10:18:12,455 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 60 EpochTime = 9.363 (s) Losses = ['0.0235', '99.4358'] lr = 0.000244
+2026-02-03 10:18:13,980 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 60  acc = 92.9432, best_acc = 93.6317
+2026-02-03 10:18:23,474 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 61 EpochTime = 9.492 (s) Losses = ['0.0183', '99.5226'] lr = 0.000243
+2026-02-03 10:18:25,064 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 61  acc = 93.6317, best_acc = 93.6317
+2026-02-03 10:18:34,228 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 62 EpochTime = 9.161 (s) Losses = ['0.0220', '99.3924'] lr = 0.000243
+2026-02-03 10:18:36,167 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 62  acc = 92.4268, best_acc = 93.6317
+2026-02-03 10:18:45,313 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 63 EpochTime = 9.142 (s) Losses = ['0.0244', '99.2622'] lr = 0.000242
+2026-02-03 10:18:47,146 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 63  acc = 91.5663, best_acc = 93.6317
+2026-02-03 10:18:56,342 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 64 EpochTime = 9.194 (s) Losses = ['0.0224', '99.5226'] lr = 0.000241
+2026-02-03 10:18:58,029 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 64  acc = 93.6317, best_acc = 93.6317
+2026-02-03 10:19:07,249 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 65 EpochTime = 9.218 (s) Losses = ['0.0220', '99.3490'] lr = 0.000240
+2026-02-03 10:19:09,079 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 65  acc = 93.1153, best_acc = 93.6317
+2026-02-03 10:19:18,103 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 66 EpochTime = 9.021 (s) Losses = ['0.0275', '99.3924'] lr = 0.000239
+2026-02-03 10:19:20,023 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 66  acc = 91.5663, best_acc = 93.6317
+2026-02-03 10:19:29,303 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 67 EpochTime = 9.278 (s) Losses = ['0.0226', '99.4358'] lr = 0.000238
+2026-02-03 10:19:31,096 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 67  acc = 92.7711, best_acc = 93.6317
+2026-02-03 10:19:40,150 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 68 EpochTime = 9.053 (s) Losses = ['0.0197', '99.6094'] lr = 0.000237
+2026-02-03 10:19:41,986 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 68  acc = 93.9759, best_acc = 93.9759
+2026-02-03 10:19:41,994 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:19:51,344 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 69 EpochTime = 9.348 (s) Losses = ['0.0194', '99.5660'] lr = 0.000236
+2026-02-03 10:19:53,269 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 69  acc = 93.1153, best_acc = 93.9759
+2026-02-03 10:20:02,452 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 70 EpochTime = 9.180 (s) Losses = ['0.0252', '99.3490'] lr = 0.000235
+2026-02-03 10:20:04,343 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 70  acc = 92.2547, best_acc = 93.9759
+2026-02-03 10:20:13,774 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 71 EpochTime = 9.429 (s) Losses = ['0.0188', '99.6094'] lr = 0.000235
+2026-02-03 10:20:15,590 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 71  acc = 93.1153, best_acc = 93.9759
+2026-02-03 10:20:24,748 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 72 EpochTime = 9.155 (s) Losses = ['0.0351', '99.0017'] lr = 0.000234
+2026-02-03 10:20:26,430 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 72  acc = 91.3941, best_acc = 93.9759
+2026-02-03 10:20:35,940 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 73 EpochTime = 9.506 (s) Losses = ['0.0356', '99.0451'] lr = 0.000233
+2026-02-03 10:20:37,540 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 73  acc = 93.2874, best_acc = 93.9759
+2026-02-03 10:20:46,691 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 74 EpochTime = 9.147 (s) Losses = ['0.0183', '99.5660'] lr = 0.000232
+2026-02-03 10:20:48,340 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 74  acc = 94.1480, best_acc = 94.1480
+2026-02-03 10:20:48,343 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:20:57,845 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 75 EpochTime = 9.500 (s) Losses = ['0.0140', '99.6962'] lr = 0.000231
+2026-02-03 10:20:59,520 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 75  acc = 93.6317, best_acc = 94.1480
+2026-02-03 10:21:08,689 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 76 EpochTime = 9.167 (s) Losses = ['0.0103', '99.8698'] lr = 0.000230
+2026-02-03 10:21:10,292 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 76  acc = 95.0086, best_acc = 95.0086
+2026-02-03 10:21:10,295 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:21:19,585 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 77 EpochTime = 9.283 (s) Losses = ['0.0093', '99.8264'] lr = 0.000229
+2026-02-03 10:21:21,049 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 77  acc = 94.3201, best_acc = 95.0086
+2026-02-03 10:21:30,502 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 78 EpochTime = 9.449 (s) Losses = ['0.0152', '99.6094'] lr = 0.000228
+2026-02-03 10:21:32,009 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 78  acc = 95.5250, best_acc = 95.5250
+2026-02-03 10:21:33,171 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - Save checkpoint at /irip/yanxu_2023/gumble-test/experiments/ft_objbg-finetune_grid_b/aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20/ckpt-best.pth
+2026-02-03 10:21:33,172 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - --------------------------------------------------------------------------------------------
+2026-02-03 10:21:42,698 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 79 EpochTime = 9.525 (s) Losses = ['0.0137', '99.5660'] lr = 0.000227
+2026-02-03 10:21:44,543 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 79  acc = 93.2874, best_acc = 95.5250
+2026-02-03 10:21:54,071 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 80 EpochTime = 9.526 (s) Losses = ['0.0145', '99.6094'] lr = 0.000225
+2026-02-03 10:21:55,719 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 80  acc = 93.2874, best_acc = 95.5250
+2026-02-03 10:22:04,880 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 81 EpochTime = 9.153 (s) Losses = ['0.0099', '99.8698'] lr = 0.000224
+2026-02-03 10:22:06,627 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 81  acc = 92.9432, best_acc = 95.5250
+2026-02-03 10:22:16,024 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 82 EpochTime = 9.395 (s) Losses = ['0.0095', '99.7830'] lr = 0.000223
+2026-02-03 10:22:17,660 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 82  acc = 93.1153, best_acc = 95.5250
+2026-02-03 10:22:27,107 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 83 EpochTime = 9.445 (s) Losses = ['0.0121', '99.6962'] lr = 0.000222
+2026-02-03 10:22:28,772 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 83  acc = 93.9759, best_acc = 95.5250
+2026-02-03 10:22:38,193 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 84 EpochTime = 9.418 (s) Losses = ['0.0231', '99.3056'] lr = 0.000221
+2026-02-03 10:22:39,954 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 84  acc = 91.9105, best_acc = 95.5250
+2026-02-03 10:22:49,107 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 85 EpochTime = 9.151 (s) Losses = ['0.0124', '99.7396'] lr = 0.000220
+2026-02-03 10:22:50,913 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 85  acc = 92.9432, best_acc = 95.5250
+2026-02-03 10:23:00,285 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 86 EpochTime = 9.369 (s) Losses = ['0.0085', '99.7830'] lr = 0.000219
+2026-02-03 10:23:02,327 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 86  acc = 92.7711, best_acc = 95.5250
+2026-02-03 10:23:11,786 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 87 EpochTime = 9.456 (s) Losses = ['0.0064', '99.9132'] lr = 0.000218
+2026-02-03 10:23:13,956 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 87  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:23:23,291 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 88 EpochTime = 9.332 (s) Losses = ['0.0058', '99.8698'] lr = 0.000217
+2026-02-03 10:23:25,262 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 88  acc = 92.9432, best_acc = 95.5250
+2026-02-03 10:23:34,632 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 89 EpochTime = 9.368 (s) Losses = ['0.0152', '99.7396'] lr = 0.000216
+2026-02-03 10:23:36,243 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 89  acc = 93.1153, best_acc = 95.5250
+2026-02-03 10:23:45,939 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 90 EpochTime = 9.690 (s) Losses = ['0.0146', '99.6962'] lr = 0.000215
+2026-02-03 10:23:47,445 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 90  acc = 93.2874, best_acc = 95.5250
+2026-02-03 10:23:57,209 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 91 EpochTime = 9.761 (s) Losses = ['0.0121', '99.7830'] lr = 0.000213
+2026-02-03 10:23:58,874 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 91  acc = 93.1153, best_acc = 95.5250
+2026-02-03 10:24:08,484 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 92 EpochTime = 9.608 (s) Losses = ['0.0095', '99.7396'] lr = 0.000212
+2026-02-03 10:24:09,958 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 92  acc = 92.7711, best_acc = 95.5250
+2026-02-03 10:24:19,455 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 93 EpochTime = 9.495 (s) Losses = ['0.0086', '99.8264'] lr = 0.000211
+2026-02-03 10:24:21,002 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 93  acc = 92.9432, best_acc = 95.5250
+2026-02-03 10:24:30,251 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 94 EpochTime = 9.246 (s) Losses = ['0.0132', '99.6094'] lr = 0.000210
+2026-02-03 10:24:31,900 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 94  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:24:41,235 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 95 EpochTime = 9.332 (s) Losses = ['0.0063', '99.8264'] lr = 0.000209
+2026-02-03 10:24:42,860 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 95  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:24:52,320 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 96 EpochTime = 9.457 (s) Losses = ['0.0233', '99.3924'] lr = 0.000208
+2026-02-03 10:24:53,982 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 96  acc = 91.7384, best_acc = 95.5250
+2026-02-03 10:25:03,155 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 97 EpochTime = 9.171 (s) Losses = ['0.0434', '98.8715'] lr = 0.000206
+2026-02-03 10:25:04,808 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 97  acc = 92.2547, best_acc = 95.5250
+2026-02-03 10:25:13,984 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 98 EpochTime = 9.172 (s) Losses = ['0.0188', '99.4358'] lr = 0.000205
+2026-02-03 10:25:15,621 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 98  acc = 91.2220, best_acc = 95.5250
+2026-02-03 10:25:24,583 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 99 EpochTime = 8.959 (s) Losses = ['0.0120', '99.7396'] lr = 0.000204
+2026-02-03 10:25:26,281 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 99  acc = 93.9759, best_acc = 95.5250
+2026-02-03 10:25:35,472 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 100 EpochTime = 9.187 (s) Losses = ['0.0082', '99.9132'] lr = 0.000203
+2026-02-03 10:25:37,120 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 100  acc = 93.2874, best_acc = 95.5250
+2026-02-03 10:25:46,427 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 101 EpochTime = 9.304 (s) Losses = ['0.0136', '99.6528'] lr = 0.000202
+2026-02-03 10:25:48,308 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 101  acc = 92.9432, best_acc = 95.5250
+2026-02-03 10:25:57,484 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 102 EpochTime = 9.173 (s) Losses = ['0.0095', '99.7396'] lr = 0.000200
+2026-02-03 10:25:59,456 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 102  acc = 92.9432, best_acc = 95.5250
+2026-02-03 10:26:08,970 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 103 EpochTime = 9.509 (s) Losses = ['0.0116', '99.7396'] lr = 0.000199
+2026-02-03 10:26:10,850 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 103  acc = 93.2874, best_acc = 95.5250
+2026-02-03 10:26:20,176 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 104 EpochTime = 9.323 (s) Losses = ['0.0160', '99.5226'] lr = 0.000198
+2026-02-03 10:26:22,026 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 104  acc = 92.2547, best_acc = 95.5250
+2026-02-03 10:26:31,251 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 105 EpochTime = 9.223 (s) Losses = ['0.0111', '99.6962'] lr = 0.000197
+2026-02-03 10:26:33,104 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 105  acc = 92.4268, best_acc = 95.5250
+2026-02-03 10:26:42,231 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 106 EpochTime = 9.125 (s) Losses = ['0.0094', '99.7830'] lr = 0.000195
+2026-02-03 10:26:44,034 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 106  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:26:53,468 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 107 EpochTime = 9.431 (s) Losses = ['0.0102', '99.6528'] lr = 0.000194
+2026-02-03 10:26:55,180 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 107  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:27:04,524 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 108 EpochTime = 9.340 (s) Losses = ['0.0085', '99.8698'] lr = 0.000193
+2026-02-03 10:27:06,173 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 108  acc = 91.9105, best_acc = 95.5250
+2026-02-03 10:27:15,563 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 109 EpochTime = 9.387 (s) Losses = ['0.0128', '99.6094'] lr = 0.000191
+2026-02-03 10:27:17,158 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 109  acc = 91.5663, best_acc = 95.5250
+2026-02-03 10:27:26,771 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 110 EpochTime = 9.610 (s) Losses = ['0.0060', '99.8264'] lr = 0.000190
+2026-02-03 10:27:28,236 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 110  acc = 92.0826, best_acc = 95.5250
+2026-02-03 10:27:37,700 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 111 EpochTime = 9.459 (s) Losses = ['0.0076', '99.8698'] lr = 0.000189
+2026-02-03 10:27:39,345 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 111  acc = 92.9432, best_acc = 95.5250
+2026-02-03 10:27:48,670 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 112 EpochTime = 9.322 (s) Losses = ['0.0082', '99.8698'] lr = 0.000188
+2026-02-03 10:27:50,199 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 112  acc = 93.9759, best_acc = 95.5250
+2026-02-03 10:27:59,580 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 113 EpochTime = 9.378 (s) Losses = ['0.0162', '99.4358'] lr = 0.000186
+2026-02-03 10:28:01,163 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 113  acc = 91.3941, best_acc = 95.5250
+2026-02-03 10:28:10,536 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 114 EpochTime = 9.372 (s) Losses = ['0.0166', '99.3924'] lr = 0.000185
+2026-02-03 10:28:12,039 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 114  acc = 92.7711, best_acc = 95.5250
+2026-02-03 10:28:21,306 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 115 EpochTime = 9.266 (s) Losses = ['0.0103', '99.7396'] lr = 0.000184
+2026-02-03 10:28:22,942 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 115  acc = 92.2547, best_acc = 95.5250
+2026-02-03 10:28:32,220 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 116 EpochTime = 9.276 (s) Losses = ['0.0104', '99.6528'] lr = 0.000182
+2026-02-03 10:28:33,748 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 116  acc = 92.2547, best_acc = 95.5250
+2026-02-03 10:28:42,757 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 117 EpochTime = 9.006 (s) Losses = ['0.0209', '99.4358'] lr = 0.000181
+2026-02-03 10:28:44,490 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 117  acc = 93.2874, best_acc = 95.5250
+2026-02-03 10:28:53,800 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 118 EpochTime = 9.307 (s) Losses = ['0.0087', '99.7830'] lr = 0.000180
+2026-02-03 10:28:55,490 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 118  acc = 93.1153, best_acc = 95.5250
+2026-02-03 10:29:04,705 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 119 EpochTime = 9.213 (s) Losses = ['0.0102', '99.7396'] lr = 0.000178
+2026-02-03 10:29:06,512 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 119  acc = 91.2220, best_acc = 95.5250
+2026-02-03 10:29:15,754 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 120 EpochTime = 9.239 (s) Losses = ['0.0090', '99.8264'] lr = 0.000177
+2026-02-03 10:29:17,629 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 120  acc = 93.1153, best_acc = 95.5250
+2026-02-03 10:29:26,870 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 121 EpochTime = 9.239 (s) Losses = ['0.0120', '99.5660'] lr = 0.000176
+2026-02-03 10:29:28,594 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 121  acc = 92.7711, best_acc = 95.5250
+2026-02-03 10:29:37,864 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 122 EpochTime = 9.267 (s) Losses = ['0.0130', '99.6962'] lr = 0.000174
+2026-02-03 10:29:39,583 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 122  acc = 93.1153, best_acc = 95.5250
+2026-02-03 10:29:48,916 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 123 EpochTime = 9.327 (s) Losses = ['0.0044', '99.9566'] lr = 0.000173
+2026-02-03 10:29:50,574 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 123  acc = 92.7711, best_acc = 95.5250
+2026-02-03 10:29:59,944 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 124 EpochTime = 9.368 (s) Losses = ['0.0039', '99.9566'] lr = 0.000172
+2026-02-03 10:30:01,595 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 124  acc = 92.7711, best_acc = 95.5250
+2026-02-03 10:30:10,921 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 125 EpochTime = 9.323 (s) Losses = ['0.0035', '99.9566'] lr = 0.000170
+2026-02-03 10:30:12,528 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 125  acc = 92.7711, best_acc = 95.5250
+2026-02-03 10:30:21,877 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 126 EpochTime = 9.345 (s) Losses = ['0.0043', '99.9132'] lr = 0.000169
+2026-02-03 10:30:23,506 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 126  acc = 92.7711, best_acc = 95.5250
+2026-02-03 10:30:32,821 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 127 EpochTime = 9.312 (s) Losses = ['0.0128', '99.6094'] lr = 0.000168
+2026-02-03 10:30:34,561 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 127  acc = 92.7711, best_acc = 95.5250
+2026-02-03 10:30:43,930 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 128 EpochTime = 9.364 (s) Losses = ['0.0045', '99.8698'] lr = 0.000166
+2026-02-03 10:30:45,635 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 128  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:30:55,068 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 129 EpochTime = 9.425 (s) Losses = ['0.0052', '99.8264'] lr = 0.000165
+2026-02-03 10:30:56,743 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 129  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:31:06,100 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 130 EpochTime = 9.354 (s) Losses = ['0.0028', '100.0000'] lr = 0.000163
+2026-02-03 10:31:08,003 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 130  acc = 92.9432, best_acc = 95.5250
+2026-02-03 10:31:17,233 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 131 EpochTime = 9.228 (s) Losses = ['0.0026', '99.9132'] lr = 0.000162
+2026-02-03 10:31:19,222 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 131  acc = 94.1480, best_acc = 95.5250
+2026-02-03 10:31:28,581 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 132 EpochTime = 9.356 (s) Losses = ['0.0037', '99.9566'] lr = 0.000161
+2026-02-03 10:31:30,323 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 132  acc = 94.1480, best_acc = 95.5250
+2026-02-03 10:31:39,671 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 133 EpochTime = 9.345 (s) Losses = ['0.0032', '99.8698'] lr = 0.000159
+2026-02-03 10:31:41,317 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 133  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:31:50,590 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 134 EpochTime = 9.269 (s) Losses = ['0.0058', '99.8698'] lr = 0.000158
+2026-02-03 10:31:52,237 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 134  acc = 94.4923, best_acc = 95.5250
+2026-02-03 10:32:01,747 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 135 EpochTime = 9.507 (s) Losses = ['0.0053', '99.8698'] lr = 0.000157
+2026-02-03 10:32:03,270 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 135  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:32:12,825 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 136 EpochTime = 9.553 (s) Losses = ['0.0029', '100.0000'] lr = 0.000155
+2026-02-03 10:32:14,293 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 136  acc = 93.9759, best_acc = 95.5250
+2026-02-03 10:32:23,638 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 137 EpochTime = 9.341 (s) Losses = ['0.0065', '99.7830'] lr = 0.000154
+2026-02-03 10:32:25,097 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 137  acc = 93.1153, best_acc = 95.5250
+2026-02-03 10:32:34,535 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 138 EpochTime = 9.436 (s) Losses = ['0.0098', '99.7396'] lr = 0.000152
+2026-02-03 10:32:36,106 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 138  acc = 92.7711, best_acc = 95.5250
+2026-02-03 10:32:45,218 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 139 EpochTime = 9.110 (s) Losses = ['0.0083', '99.6962'] lr = 0.000151
+2026-02-03 10:32:46,843 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 139  acc = 93.1153, best_acc = 95.5250
+2026-02-03 10:32:56,011 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 140 EpochTime = 9.164 (s) Losses = ['0.0067', '99.8698'] lr = 0.000150
+2026-02-03 10:32:57,798 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 140  acc = 92.9432, best_acc = 95.5250
+2026-02-03 10:33:07,205 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 141 EpochTime = 9.406 (s) Losses = ['0.0046', '99.9132'] lr = 0.000148
+2026-02-03 10:33:09,143 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 141  acc = 92.5990, best_acc = 95.5250
+2026-02-03 10:33:18,398 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 142 EpochTime = 9.252 (s) Losses = ['0.0157', '99.6094'] lr = 0.000147
+2026-02-03 10:33:20,294 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 142  acc = 92.0826, best_acc = 95.5250
+2026-02-03 10:33:29,519 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 143 EpochTime = 9.223 (s) Losses = ['0.0132', '99.6094'] lr = 0.000145
+2026-02-03 10:33:31,305 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 143  acc = 93.2874, best_acc = 95.5250
+2026-02-03 10:33:40,602 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 144 EpochTime = 9.295 (s) Losses = ['0.0054', '99.8698'] lr = 0.000144
+2026-02-03 10:33:42,260 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 144  acc = 93.9759, best_acc = 95.5250
+2026-02-03 10:33:51,604 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 145 EpochTime = 9.342 (s) Losses = ['0.0144', '99.6094'] lr = 0.000143
+2026-02-03 10:33:53,084 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 145  acc = 93.9759, best_acc = 95.5250
+2026-02-03 10:34:02,073 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 146 EpochTime = 8.987 (s) Losses = ['0.0124', '99.6094'] lr = 0.000141
+2026-02-03 10:34:03,694 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 146  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:34:12,869 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 147 EpochTime = 9.172 (s) Losses = ['0.0040', '99.9132'] lr = 0.000140
+2026-02-03 10:34:14,568 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 147  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:34:24,128 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 148 EpochTime = 9.558 (s) Losses = ['0.0039', '99.9132'] lr = 0.000138
+2026-02-03 10:34:25,731 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 148  acc = 92.2547, best_acc = 95.5250
+2026-02-03 10:34:35,368 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 149 EpochTime = 9.635 (s) Losses = ['0.0044', '99.9132'] lr = 0.000137
+2026-02-03 10:34:36,826 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 149  acc = 94.3201, best_acc = 95.5250
+2026-02-03 10:34:46,154 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 150 EpochTime = 9.326 (s) Losses = ['0.0036', '99.8698'] lr = 0.000135
+2026-02-03 10:34:47,782 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 150  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:34:57,075 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 151 EpochTime = 9.290 (s) Losses = ['0.0032', '99.9132'] lr = 0.000134
+2026-02-03 10:34:58,737 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 151  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:35:08,138 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 152 EpochTime = 9.398 (s) Losses = ['0.0042', '99.9132'] lr = 0.000133
+2026-02-03 10:35:09,730 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 152  acc = 93.1153, best_acc = 95.5250
+2026-02-03 10:35:18,982 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 153 EpochTime = 9.250 (s) Losses = ['0.0038', '99.8698'] lr = 0.000131
+2026-02-03 10:35:20,676 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 153  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:35:30,293 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 154 EpochTime = 9.614 (s) Losses = ['0.0056', '99.8264'] lr = 0.000130
+2026-02-03 10:35:31,873 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 154  acc = 92.9432, best_acc = 95.5250
+2026-02-03 10:35:41,331 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 155 EpochTime = 9.456 (s) Losses = ['0.0021', '100.0000'] lr = 0.000128
+2026-02-03 10:35:43,029 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 155  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:35:52,490 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 156 EpochTime = 9.458 (s) Losses = ['0.0068', '99.9132'] lr = 0.000127
+2026-02-03 10:35:54,229 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 156  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:36:03,412 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 157 EpochTime = 9.181 (s) Losses = ['0.0031', '99.9132'] lr = 0.000126
+2026-02-03 10:36:05,244 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 157  acc = 93.1153, best_acc = 95.5250
+2026-02-03 10:36:14,580 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 158 EpochTime = 9.332 (s) Losses = ['0.0057', '99.8264'] lr = 0.000124
+2026-02-03 10:36:16,324 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 158  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:36:25,465 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 159 EpochTime = 9.138 (s) Losses = ['0.0039', '99.9132'] lr = 0.000123
+2026-02-03 10:36:27,303 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 159  acc = 92.9432, best_acc = 95.5250
+2026-02-03 10:36:36,460 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 160 EpochTime = 9.155 (s) Losses = ['0.0020', '100.0000'] lr = 0.000121
+2026-02-03 10:36:38,236 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 160  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:36:47,655 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 161 EpochTime = 9.417 (s) Losses = ['0.0023', '100.0000'] lr = 0.000120
+2026-02-03 10:36:49,392 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 161  acc = 92.9432, best_acc = 95.5250
+2026-02-03 10:36:58,796 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 162 EpochTime = 9.401 (s) Losses = ['0.0024', '99.9566'] lr = 0.000119
+2026-02-03 10:37:00,563 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 162  acc = 93.2874, best_acc = 95.5250
+2026-02-03 10:37:09,801 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 163 EpochTime = 9.236 (s) Losses = ['0.0027', '99.9566'] lr = 0.000117
+2026-02-03 10:37:11,321 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 163  acc = 93.2874, best_acc = 95.5250
+2026-02-03 10:37:20,597 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 164 EpochTime = 9.274 (s) Losses = ['0.0021', '99.9132'] lr = 0.000116
+2026-02-03 10:37:22,238 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 164  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:37:31,606 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 165 EpochTime = 9.365 (s) Losses = ['0.0040', '99.8698'] lr = 0.000114
+2026-02-03 10:37:33,240 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 165  acc = 92.9432, best_acc = 95.5250
+2026-02-03 10:37:42,539 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 166 EpochTime = 9.296 (s) Losses = ['0.0030', '99.9132'] lr = 0.000113
+2026-02-03 10:37:44,141 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 166  acc = 93.1153, best_acc = 95.5250
+2026-02-03 10:37:53,533 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 167 EpochTime = 9.390 (s) Losses = ['0.0017', '100.0000'] lr = 0.000112
+2026-02-03 10:37:55,339 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 167  acc = 92.9432, best_acc = 95.5250
+2026-02-03 10:38:04,625 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 168 EpochTime = 9.283 (s) Losses = ['0.0018', '100.0000'] lr = 0.000110
+2026-02-03 10:38:06,307 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 168  acc = 92.9432, best_acc = 95.5250
+2026-02-03 10:38:15,778 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 169 EpochTime = 9.469 (s) Losses = ['0.0011', '100.0000'] lr = 0.000109
+2026-02-03 10:38:17,535 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 169  acc = 93.2874, best_acc = 95.5250
+2026-02-03 10:38:26,858 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 170 EpochTime = 9.321 (s) Losses = ['0.0020', '100.0000'] lr = 0.000108
+2026-02-03 10:38:28,706 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 170  acc = 93.9759, best_acc = 95.5250
+2026-02-03 10:38:37,991 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 171 EpochTime = 9.283 (s) Losses = ['0.0023', '100.0000'] lr = 0.000106
+2026-02-03 10:38:39,731 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 171  acc = 93.2874, best_acc = 95.5250
+2026-02-03 10:38:48,912 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 172 EpochTime = 9.179 (s) Losses = ['0.0010', '100.0000'] lr = 0.000105
+2026-02-03 10:38:50,694 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 172  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:38:59,827 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 173 EpochTime = 9.131 (s) Losses = ['0.0015', '100.0000'] lr = 0.000103
+2026-02-03 10:39:01,769 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 173  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:39:10,818 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 174 EpochTime = 9.048 (s) Losses = ['0.0024', '99.9566'] lr = 0.000102
+2026-02-03 10:39:12,642 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 174  acc = 93.1153, best_acc = 95.5250
+2026-02-03 10:39:21,829 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 175 EpochTime = 9.185 (s) Losses = ['0.0024', '99.9566'] lr = 0.000101
+2026-02-03 10:39:23,686 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 175  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:39:33,005 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 176 EpochTime = 9.317 (s) Losses = ['0.0012', '100.0000'] lr = 0.000099
+2026-02-03 10:39:34,981 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 176  acc = 93.1153, best_acc = 95.5250
+2026-02-03 10:39:44,291 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 177 EpochTime = 9.308 (s) Losses = ['0.0024', '99.9566'] lr = 0.000098
+2026-02-03 10:39:46,247 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 177  acc = 92.7711, best_acc = 95.5250
+2026-02-03 10:39:55,678 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 178 EpochTime = 9.424 (s) Losses = ['0.0012', '100.0000'] lr = 0.000097
+2026-02-03 10:39:57,530 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 178  acc = 92.9432, best_acc = 95.5250
+2026-02-03 10:40:06,750 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 179 EpochTime = 9.218 (s) Losses = ['0.0015', '99.9566'] lr = 0.000095
+2026-02-03 10:40:08,623 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 179  acc = 93.2874, best_acc = 95.5250
+2026-02-03 10:40:17,774 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 180 EpochTime = 9.148 (s) Losses = ['0.0014', '99.9566'] lr = 0.000094
+2026-02-03 10:40:19,729 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 180  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:40:29,080 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 181 EpochTime = 9.348 (s) Losses = ['0.0035', '99.9566'] lr = 0.000093
+2026-02-03 10:40:30,724 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 181  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:40:40,146 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 182 EpochTime = 9.420 (s) Losses = ['0.0037', '99.9132'] lr = 0.000091
+2026-02-03 10:40:41,986 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 182  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:40:51,532 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 183 EpochTime = 9.544 (s) Losses = ['0.0018', '99.9566'] lr = 0.000090
+2026-02-03 10:40:53,334 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 183  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:41:02,677 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 184 EpochTime = 9.340 (s) Losses = ['0.0017', '100.0000'] lr = 0.000089
+2026-02-03 10:41:04,392 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 184  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:41:13,680 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 185 EpochTime = 9.285 (s) Losses = ['0.0014', '99.9566'] lr = 0.000087
+2026-02-03 10:41:15,445 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 185  acc = 93.2874, best_acc = 95.5250
+2026-02-03 10:41:24,685 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 186 EpochTime = 9.236 (s) Losses = ['0.0026', '99.9132'] lr = 0.000086
+2026-02-03 10:41:26,386 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 186  acc = 92.5990, best_acc = 95.5250
+2026-02-03 10:41:35,560 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 187 EpochTime = 9.172 (s) Losses = ['0.0017', '100.0000'] lr = 0.000085
+2026-02-03 10:41:37,423 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 187  acc = 92.7711, best_acc = 95.5250
+2026-02-03 10:41:46,644 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 188 EpochTime = 9.219 (s) Losses = ['0.0011', '100.0000'] lr = 0.000083
+2026-02-03 10:41:48,419 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 188  acc = 93.2874, best_acc = 95.5250
+2026-02-03 10:41:57,578 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 189 EpochTime = 9.156 (s) Losses = ['0.0034', '99.9566'] lr = 0.000082
+2026-02-03 10:41:59,862 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 189  acc = 92.5990, best_acc = 95.5250
+2026-02-03 10:42:08,903 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 190 EpochTime = 9.038 (s) Losses = ['0.0029', '99.9132'] lr = 0.000081
+2026-02-03 10:42:10,959 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 190  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:42:20,196 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 191 EpochTime = 9.233 (s) Losses = ['0.0020', '99.9132'] lr = 0.000080
+2026-02-03 10:42:22,276 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 191  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:42:31,790 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 192 EpochTime = 9.512 (s) Losses = ['0.0019', '100.0000'] lr = 0.000078
+2026-02-03 10:42:33,779 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 192  acc = 92.9432, best_acc = 95.5250
+2026-02-03 10:42:43,392 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 193 EpochTime = 9.610 (s) Losses = ['0.0019', '99.9132'] lr = 0.000077
+2026-02-03 10:42:45,328 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 193  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:42:54,915 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 194 EpochTime = 9.585 (s) Losses = ['0.0009', '100.0000'] lr = 0.000076
+2026-02-03 10:42:56,723 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 194  acc = 93.9759, best_acc = 95.5250
+2026-02-03 10:43:06,100 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 195 EpochTime = 9.374 (s) Losses = ['0.0034', '99.9566'] lr = 0.000074
+2026-02-03 10:43:08,065 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 195  acc = 93.1153, best_acc = 95.5250
+2026-02-03 10:43:17,273 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 196 EpochTime = 9.206 (s) Losses = ['0.0009', '100.0000'] lr = 0.000073
+2026-02-03 10:43:19,113 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 196  acc = 92.7711, best_acc = 95.5250
+2026-02-03 10:43:28,592 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 197 EpochTime = 9.476 (s) Losses = ['0.0015', '99.9566'] lr = 0.000072
+2026-02-03 10:43:30,255 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 197  acc = 93.9759, best_acc = 95.5250
+2026-02-03 10:43:39,616 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 198 EpochTime = 9.357 (s) Losses = ['0.0026', '99.9132'] lr = 0.000071
+2026-02-03 10:43:41,364 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 198  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:43:50,632 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 199 EpochTime = 9.266 (s) Losses = ['0.0019', '99.9566'] lr = 0.000069
+2026-02-03 10:43:52,246 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 199  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:44:01,738 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 200 EpochTime = 9.490 (s) Losses = ['0.0014', '99.9566'] lr = 0.000068
+2026-02-03 10:44:03,331 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 200  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:44:12,519 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 201 EpochTime = 9.184 (s) Losses = ['0.0017', '99.9566'] lr = 0.000067
+2026-02-03 10:44:14,061 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 201  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:44:23,509 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 202 EpochTime = 9.446 (s) Losses = ['0.0015', '99.9566'] lr = 0.000066
+2026-02-03 10:44:25,200 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 202  acc = 93.2874, best_acc = 95.5250
+2026-02-03 10:44:34,698 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 203 EpochTime = 9.496 (s) Losses = ['0.0034', '99.9132'] lr = 0.000065
+2026-02-03 10:44:36,430 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 203  acc = 94.3201, best_acc = 95.5250
+2026-02-03 10:44:45,634 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 204 EpochTime = 9.201 (s) Losses = ['0.0021', '99.9132'] lr = 0.000063
+2026-02-03 10:44:47,624 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 204  acc = 93.9759, best_acc = 95.5250
+2026-02-03 10:44:57,166 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 205 EpochTime = 9.540 (s) Losses = ['0.0011', '100.0000'] lr = 0.000062
+2026-02-03 10:44:58,897 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 205  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:45:08,130 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 206 EpochTime = 9.230 (s) Losses = ['0.0029', '99.9566'] lr = 0.000061
+2026-02-03 10:45:10,055 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 206  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:45:19,278 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 207 EpochTime = 9.218 (s) Losses = ['0.0022', '99.9132'] lr = 0.000060
+2026-02-03 10:45:21,021 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 207  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:45:30,083 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 208 EpochTime = 9.060 (s) Losses = ['0.0010', '100.0000'] lr = 0.000059
+2026-02-03 10:45:31,932 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 208  acc = 93.2874, best_acc = 95.5250
+2026-02-03 10:45:41,141 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 209 EpochTime = 9.205 (s) Losses = ['0.0019', '99.9566'] lr = 0.000058
+2026-02-03 10:45:43,060 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 209  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:45:52,186 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 210 EpochTime = 9.122 (s) Losses = ['0.0007', '100.0000'] lr = 0.000056
+2026-02-03 10:45:53,966 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 210  acc = 93.2874, best_acc = 95.5250
+2026-02-03 10:46:03,119 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 211 EpochTime = 9.151 (s) Losses = ['0.0009', '100.0000'] lr = 0.000055
+2026-02-03 10:46:04,982 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 211  acc = 94.1480, best_acc = 95.5250
+2026-02-03 10:46:14,108 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 212 EpochTime = 9.122 (s) Losses = ['0.0006', '100.0000'] lr = 0.000054
+2026-02-03 10:46:15,951 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 212  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:46:25,110 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 213 EpochTime = 9.155 (s) Losses = ['0.0012', '99.9566'] lr = 0.000053
+2026-02-03 10:46:27,065 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 213  acc = 94.1480, best_acc = 95.5250
+2026-02-03 10:46:36,410 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 214 EpochTime = 9.342 (s) Losses = ['0.0014', '99.9566'] lr = 0.000052
+2026-02-03 10:46:38,399 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 214  acc = 93.9759, best_acc = 95.5250
+2026-02-03 10:46:47,402 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 215 EpochTime = 9.001 (s) Losses = ['0.0007', '100.0000'] lr = 0.000051
+2026-02-03 10:46:49,304 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 215  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:46:58,531 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 216 EpochTime = 9.225 (s) Losses = ['0.0022', '99.9132'] lr = 0.000050
+2026-02-03 10:47:00,179 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 216  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:47:09,366 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 217 EpochTime = 9.179 (s) Losses = ['0.0007', '100.0000'] lr = 0.000049
+2026-02-03 10:47:11,086 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 217  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:47:20,598 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 218 EpochTime = 9.509 (s) Losses = ['0.0005', '100.0000'] lr = 0.000048
+2026-02-03 10:47:22,324 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 218  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:47:31,585 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 219 EpochTime = 9.259 (s) Losses = ['0.0007', '100.0000'] lr = 0.000047
+2026-02-03 10:47:33,302 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 219  acc = 94.1480, best_acc = 95.5250
+2026-02-03 10:47:42,712 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 220 EpochTime = 9.408 (s) Losses = ['0.0011', '99.9566'] lr = 0.000046
+2026-02-03 10:47:44,474 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 220  acc = 94.3201, best_acc = 95.5250
+2026-02-03 10:47:53,672 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 221 EpochTime = 9.196 (s) Losses = ['0.0014', '99.9566'] lr = 0.000044
+2026-02-03 10:47:55,393 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 221  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:48:04,660 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 222 EpochTime = 9.264 (s) Losses = ['0.0011', '99.9566'] lr = 0.000043
+2026-02-03 10:48:06,368 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 222  acc = 93.9759, best_acc = 95.5250
+2026-02-03 10:48:15,692 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 223 EpochTime = 9.320 (s) Losses = ['0.0008', '100.0000'] lr = 0.000042
+2026-02-03 10:48:17,477 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 223  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:48:26,606 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 224 EpochTime = 9.126 (s) Losses = ['0.0005', '100.0000'] lr = 0.000041
+2026-02-03 10:48:28,503 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 224  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:48:37,697 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 225 EpochTime = 9.192 (s) Losses = ['0.0015', '99.9132'] lr = 0.000040
+2026-02-03 10:48:39,384 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 225  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:48:48,675 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 226 EpochTime = 9.290 (s) Losses = ['0.0007', '100.0000'] lr = 0.000039
+2026-02-03 10:48:50,446 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 226  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:48:59,785 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 227 EpochTime = 9.336 (s) Losses = ['0.0005', '100.0000'] lr = 0.000038
+2026-02-03 10:49:01,560 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 227  acc = 93.9759, best_acc = 95.5250
+2026-02-03 10:49:10,881 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 228 EpochTime = 9.318 (s) Losses = ['0.0008', '99.9566'] lr = 0.000037
+2026-02-03 10:49:12,787 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 228  acc = 93.9759, best_acc = 95.5250
+2026-02-03 10:49:21,906 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 229 EpochTime = 9.116 (s) Losses = ['0.0006', '100.0000'] lr = 0.000036
+2026-02-03 10:49:23,919 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 229  acc = 94.1480, best_acc = 95.5250
+2026-02-03 10:49:33,177 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 230 EpochTime = 9.256 (s) Losses = ['0.0006', '100.0000'] lr = 0.000036
+2026-02-03 10:49:35,129 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 230  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:49:44,315 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 231 EpochTime = 9.183 (s) Losses = ['0.0005', '100.0000'] lr = 0.000035
+2026-02-03 10:49:46,359 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 231  acc = 93.9759, best_acc = 95.5250
+2026-02-03 10:49:55,574 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 232 EpochTime = 9.212 (s) Losses = ['0.0015', '99.9566'] lr = 0.000034
+2026-02-03 10:49:57,534 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 232  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:50:06,609 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 233 EpochTime = 9.073 (s) Losses = ['0.0013', '99.9566'] lr = 0.000033
+2026-02-03 10:50:08,420 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 233  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:50:17,793 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 234 EpochTime = 9.371 (s) Losses = ['0.0007', '100.0000'] lr = 0.000032
+2026-02-03 10:50:19,592 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 234  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:50:28,851 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 235 EpochTime = 9.256 (s) Losses = ['0.0005', '100.0000'] lr = 0.000031
+2026-02-03 10:50:30,506 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 235  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:50:40,160 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 236 EpochTime = 9.646 (s) Losses = ['0.0004', '100.0000'] lr = 0.000030
+2026-02-03 10:50:41,846 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 236  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:50:51,399 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 237 EpochTime = 9.552 (s) Losses = ['0.0012', '99.9566'] lr = 0.000029
+2026-02-03 10:50:53,136 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 237  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:51:02,392 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 238 EpochTime = 9.254 (s) Losses = ['0.0016', '99.9566'] lr = 0.000028
+2026-02-03 10:51:04,194 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 238  acc = 93.2874, best_acc = 95.5250
+2026-02-03 10:51:13,956 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 239 EpochTime = 9.761 (s) Losses = ['0.0026', '99.9566'] lr = 0.000028
+2026-02-03 10:51:15,565 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 239  acc = 92.9432, best_acc = 95.5250
+2026-02-03 10:51:24,877 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 240 EpochTime = 9.309 (s) Losses = ['0.0010', '100.0000'] lr = 0.000027
+2026-02-03 10:51:26,753 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 240  acc = 93.1153, best_acc = 95.5250
+2026-02-03 10:51:36,167 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 241 EpochTime = 9.412 (s) Losses = ['0.0004', '100.0000'] lr = 0.000026
+2026-02-03 10:51:37,854 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 241  acc = 92.9432, best_acc = 95.5250
+2026-02-03 10:51:47,187 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 242 EpochTime = 9.330 (s) Losses = ['0.0006', '100.0000'] lr = 0.000025
+2026-02-03 10:51:49,033 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 242  acc = 94.1480, best_acc = 95.5250
+2026-02-03 10:51:58,192 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 243 EpochTime = 9.157 (s) Losses = ['0.0006', '100.0000'] lr = 0.000024
+2026-02-03 10:52:00,086 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 243  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:52:09,322 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 244 EpochTime = 9.233 (s) Losses = ['0.0006', '100.0000'] lr = 0.000023
+2026-02-03 10:52:10,986 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 244  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:52:20,186 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 245 EpochTime = 9.196 (s) Losses = ['0.0016', '99.9566'] lr = 0.000023
+2026-02-03 10:52:22,067 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 245  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:52:31,257 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 246 EpochTime = 9.188 (s) Losses = ['0.0006', '100.0000'] lr = 0.000022
+2026-02-03 10:52:33,407 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 246  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:52:42,718 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 247 EpochTime = 9.309 (s) Losses = ['0.0005', '100.0000'] lr = 0.000021
+2026-02-03 10:52:44,542 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 247  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:52:53,574 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 248 EpochTime = 9.030 (s) Losses = ['0.0009', '100.0000'] lr = 0.000020
+2026-02-03 10:52:55,552 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 248  acc = 93.2874, best_acc = 95.5250
+2026-02-03 10:53:04,911 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 249 EpochTime = 9.357 (s) Losses = ['0.0008', '100.0000'] lr = 0.000020
+2026-02-03 10:53:06,842 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 249  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:53:16,206 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 250 EpochTime = 9.361 (s) Losses = ['0.0009', '100.0000'] lr = 0.000019
+2026-02-03 10:53:17,889 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 250  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:53:27,342 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 251 EpochTime = 9.450 (s) Losses = ['0.0006', '100.0000'] lr = 0.000018
+2026-02-03 10:53:29,015 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 251  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:53:38,660 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 252 EpochTime = 9.642 (s) Losses = ['0.0005', '100.0000'] lr = 0.000018
+2026-02-03 10:53:40,335 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 252  acc = 93.9759, best_acc = 95.5250
+2026-02-03 10:53:49,830 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 253 EpochTime = 9.492 (s) Losses = ['0.0037', '99.9566'] lr = 0.000017
+2026-02-03 10:53:51,545 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 253  acc = 93.1153, best_acc = 95.5250
+2026-02-03 10:54:00,773 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 254 EpochTime = 9.223 (s) Losses = ['0.0008', '99.9566'] lr = 0.000016
+2026-02-03 10:54:02,475 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 254  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:54:11,664 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 255 EpochTime = 9.185 (s) Losses = ['0.0005', '100.0000'] lr = 0.000016
+2026-02-03 10:54:13,246 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 255  acc = 93.1153, best_acc = 95.5250
+2026-02-03 10:54:22,613 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 256 EpochTime = 9.366 (s) Losses = ['0.0007', '100.0000'] lr = 0.000015
+2026-02-03 10:54:24,131 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 256  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:54:33,598 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 257 EpochTime = 9.464 (s) Losses = ['0.0032', '99.9132'] lr = 0.000014
+2026-02-03 10:54:35,095 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 257  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:54:44,395 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 258 EpochTime = 9.297 (s) Losses = ['0.0004', '100.0000'] lr = 0.000014
+2026-02-03 10:54:45,931 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 258  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:54:54,981 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 259 EpochTime = 9.048 (s) Losses = ['0.0004', '100.0000'] lr = 0.000013
+2026-02-03 10:54:56,659 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 259  acc = 94.1480, best_acc = 95.5250
+2026-02-03 10:55:06,083 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 260 EpochTime = 9.422 (s) Losses = ['0.0003', '100.0000'] lr = 0.000013
+2026-02-03 10:55:07,701 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 260  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:55:16,965 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 261 EpochTime = 9.261 (s) Losses = ['0.0003', '100.0000'] lr = 0.000012
+2026-02-03 10:55:18,836 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 261  acc = 93.9759, best_acc = 95.5250
+2026-02-03 10:55:28,120 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 262 EpochTime = 9.281 (s) Losses = ['0.0003', '100.0000'] lr = 0.000012
+2026-02-03 10:55:29,928 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 262  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:55:39,201 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 263 EpochTime = 9.269 (s) Losses = ['0.0007', '100.0000'] lr = 0.000011
+2026-02-03 10:55:40,791 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 263  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:55:50,256 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 264 EpochTime = 9.462 (s) Losses = ['0.0006', '100.0000'] lr = 0.000010
+2026-02-03 10:55:52,023 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 264  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:56:01,337 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 265 EpochTime = 9.312 (s) Losses = ['0.0012', '99.9566'] lr = 0.000010
+2026-02-03 10:56:03,222 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 265  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:56:12,646 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 266 EpochTime = 9.423 (s) Losses = ['0.0006', '100.0000'] lr = 0.000009
+2026-02-03 10:56:14,468 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 266  acc = 93.2874, best_acc = 95.5250
+2026-02-03 10:56:23,735 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 267 EpochTime = 9.265 (s) Losses = ['0.0003', '100.0000'] lr = 0.000009
+2026-02-03 10:56:25,536 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 267  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:56:35,158 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 268 EpochTime = 9.619 (s) Losses = ['0.0003', '100.0000'] lr = 0.000008
+2026-02-03 10:56:36,800 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 268  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:56:46,455 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 269 EpochTime = 9.629 (s) Losses = ['0.0003', '100.0000'] lr = 0.000008
+2026-02-03 10:56:48,167 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 269  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:56:57,877 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 270 EpochTime = 9.707 (s) Losses = ['0.0006', '100.0000'] lr = 0.000008
+2026-02-03 10:56:59,777 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 270  acc = 94.1480, best_acc = 95.5250
+2026-02-03 10:57:09,125 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 271 EpochTime = 9.346 (s) Losses = ['0.0009', '100.0000'] lr = 0.000007
+2026-02-03 10:57:10,671 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 271  acc = 94.1480, best_acc = 95.5250
+2026-02-03 10:57:20,563 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 272 EpochTime = 9.890 (s) Losses = ['0.0006', '100.0000'] lr = 0.000007
+2026-02-03 10:57:22,216 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 272  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:57:31,771 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 273 EpochTime = 9.553 (s) Losses = ['0.0008', '100.0000'] lr = 0.000006
+2026-02-03 10:57:33,328 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 273  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:57:42,871 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 274 EpochTime = 9.541 (s) Losses = ['0.0005', '100.0000'] lr = 0.000006
+2026-02-03 10:57:44,473 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 274  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:57:53,928 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 275 EpochTime = 9.453 (s) Losses = ['0.0018', '99.9566'] lr = 0.000006
+2026-02-03 10:57:55,425 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 275  acc = 93.9759, best_acc = 95.5250
+2026-02-03 10:58:04,818 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 276 EpochTime = 9.391 (s) Losses = ['0.0016', '99.9566'] lr = 0.000005
+2026-02-03 10:58:06,384 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 276  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:58:15,782 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 277 EpochTime = 9.395 (s) Losses = ['0.0003', '100.0000'] lr = 0.000005
+2026-02-03 10:58:17,419 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 277  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:58:26,891 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 278 EpochTime = 9.470 (s) Losses = ['0.0003', '100.0000'] lr = 0.000005
+2026-02-03 10:58:28,602 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 278  acc = 93.6317, best_acc = 95.5250
+2026-02-03 10:58:38,140 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 279 EpochTime = 9.535 (s) Losses = ['0.0005', '100.0000'] lr = 0.000004
+2026-02-03 10:58:40,274 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 279  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:58:49,688 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 280 EpochTime = 9.411 (s) Losses = ['0.0004', '100.0000'] lr = 0.000004
+2026-02-03 10:58:51,713 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 280  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:59:01,463 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 281 EpochTime = 9.748 (s) Losses = ['0.0008', '100.0000'] lr = 0.000004
+2026-02-03 10:59:03,198 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 281  acc = 94.1480, best_acc = 95.5250
+2026-02-03 10:59:12,487 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 282 EpochTime = 9.286 (s) Losses = ['0.0007', '100.0000'] lr = 0.000003
+2026-02-03 10:59:14,299 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 282  acc = 93.1153, best_acc = 95.5250
+2026-02-03 10:59:23,745 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 283 EpochTime = 9.444 (s) Losses = ['0.0003', '100.0000'] lr = 0.000003
+2026-02-03 10:59:25,530 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 283  acc = 93.1153, best_acc = 95.5250
+2026-02-03 10:59:35,065 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 284 EpochTime = 9.530 (s) Losses = ['0.0007', '100.0000'] lr = 0.000003
+2026-02-03 10:59:36,783 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 284  acc = 93.8038, best_acc = 95.5250
+2026-02-03 10:59:46,094 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 285 EpochTime = 9.308 (s) Losses = ['0.0006', '100.0000'] lr = 0.000003
+2026-02-03 10:59:47,722 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 285  acc = 93.4595, best_acc = 95.5250
+2026-02-03 10:59:56,930 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 286 EpochTime = 9.207 (s) Losses = ['0.0006', '100.0000'] lr = 0.000002
+2026-02-03 10:59:58,517 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 286  acc = 93.8038, best_acc = 95.5250
+2026-02-03 11:00:07,885 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 287 EpochTime = 9.366 (s) Losses = ['0.0004', '100.0000'] lr = 0.000002
+2026-02-03 11:00:09,644 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 287  acc = 93.8038, best_acc = 95.5250
+2026-02-03 11:00:18,983 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 288 EpochTime = 9.337 (s) Losses = ['0.0003', '100.0000'] lr = 0.000002
+2026-02-03 11:00:20,580 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 288  acc = 93.9759, best_acc = 95.5250
+2026-02-03 11:00:30,015 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 289 EpochTime = 9.433 (s) Losses = ['0.0005', '100.0000'] lr = 0.000002
+2026-02-03 11:00:31,567 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 289  acc = 93.9759, best_acc = 95.5250
+2026-02-03 11:00:40,864 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 290 EpochTime = 9.293 (s) Losses = ['0.0004', '100.0000'] lr = 0.000002
+2026-02-03 11:00:42,418 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 290  acc = 93.9759, best_acc = 95.5250
+2026-02-03 11:00:51,887 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 291 EpochTime = 9.467 (s) Losses = ['0.0004', '100.0000'] lr = 0.000002
+2026-02-03 11:00:53,323 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 291  acc = 93.9759, best_acc = 95.5250
+2026-02-03 11:01:02,458 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 292 EpochTime = 9.133 (s) Losses = ['0.0014', '99.9566'] lr = 0.000001
+2026-02-03 11:01:04,202 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 292  acc = 93.8038, best_acc = 95.5250
+2026-02-03 11:01:13,362 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 293 EpochTime = 9.158 (s) Losses = ['0.0004', '100.0000'] lr = 0.000001
+2026-02-03 11:01:15,119 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 293  acc = 94.1480, best_acc = 95.5250
+2026-02-03 11:01:24,252 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 294 EpochTime = 9.130 (s) Losses = ['0.0005', '100.0000'] lr = 0.000001
+2026-02-03 11:01:25,873 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 294  acc = 93.9759, best_acc = 95.5250
+2026-02-03 11:01:34,696 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 295 EpochTime = 8.819 (s) Losses = ['0.0009', '100.0000'] lr = 0.000001
+2026-02-03 11:01:36,410 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 295  acc = 93.8038, best_acc = 95.5250
+2026-02-03 11:01:45,142 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 296 EpochTime = 8.730 (s) Losses = ['0.0005', '100.0000'] lr = 0.000001
+2026-02-03 11:01:46,855 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 296  acc = 93.8038, best_acc = 95.5250
+2026-02-03 11:01:55,609 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 297 EpochTime = 8.752 (s) Losses = ['0.0013', '99.9566'] lr = 0.000001
+2026-02-03 11:01:57,376 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 297  acc = 93.8038, best_acc = 95.5250
+2026-02-03 11:02:06,125 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 298 EpochTime = 8.746 (s) Losses = ['0.0005', '100.0000'] lr = 0.000001
+2026-02-03 11:02:07,920 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 298  acc = 93.9759, best_acc = 95.5250
+2026-02-03 11:02:16,778 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 299 EpochTime = 8.856 (s) Losses = ['0.0008', '100.0000'] lr = 0.000001
+2026-02-03 11:02:18,510 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 299  acc = 93.8038, best_acc = 95.5250
+2026-02-03 11:02:27,476 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Training] EPOCH: 300 EpochTime = 8.962 (s) Losses = ['0.0006', '100.0000'] lr = 0.000001
+2026-02-03 11:02:29,060 - tmp_aug_test_lr2e-05_lr0p00027_weight_decay0p05_weight_decay0p015_drop_path_rate0p0_seed20 - INFO - [Validation] EPOCH: 300  acc = 93.2874, best_acc = 95.5250
