@@ -3,9 +3,6 @@
 This repository contains the official implementation of the paper
 **"Mitigating Positional Leakage in 3D Masked Autoencoders for Robust Representation Learning"**.
 
-> 🚧 **Code coming soon.** We are cleaning up the code and will release it
-> here.
-
 ## Datasets
 
 We evaluate MPL-MAE on a variety of point cloud datasets covering pre-training, classification, segmentation, registration, and reconstruction tasks.
