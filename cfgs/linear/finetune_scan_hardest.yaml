@@ -1,0 +1,47 @@
+dataset:
+  test:
+    _base_: cfgs/dataset_configs/ScanObjectNN_hardest.yaml
+    others:
+      subset: test
+  train:
+    _base_: cfgs/dataset_configs/ScanObjectNN_hardest.yaml
+    others:
+      subset: train
+  val:
+    _base_: cfgs/dataset_configs/ScanObjectNN_hardest.yaml
+    others:
+      subset: test
+grad_norm_clip: 10
+max_epoch: 300
+model:
+  NAME: PointTransformer
+  cls_dim: 15
+  depth: 12
+  drop_path_rate: 0.1
+  ema_decay: 0.999
+  encoder_dims: 384
+  feat_agg: cls_mean
+  group_size: 32
+  head_dp: 0.5
+  num_group: 128
+  num_heads: 6
+  smoothing: 0.0
+  trans_dim: 384
+  type: linear
+npoints: 2048
+optimizer:
+  head:
+    lr: 2e-3
+    weight_decay: 0.05
+  kwargs:
+    lr: 2e-5
+    weight_decay: 0.05
+  type: AdamW
+scheduler:
+  kwargs:
+    epochs: 300
+    initial_epochs: 10
+  type: CosLR
+seed: 18
+step_per_update: 1
+total_bs: 32

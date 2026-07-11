@@ -1,0 +1,22 @@
+
+python main.py \
+    --model pt \
+    --ckpts /irip/yanxu_2023/eccv_rebuttal/MPL-MAE-recon_task/experiments/base/pretrain/pretrain/ckpt-epoch-300.pth \
+    --root /irip/yanxu_2023/eccv_rebuttal/ShapeNetCompletion_npy \
+    --file_format npy \
+    --num_workers 8 \
+    --batch_size 48 \
+    --max_epoch 200 \
+    --decay_step 4 \
+    --lr 0.0005 \
+    --encoder_lr_scale 0.1 \
+    --weight_decay 0.0005 \
+    --lr_decay 0.9 \
+    --lowest_decay 0.02 \
+    --num_query 224 \
+    --num_pred 14336 \
+    --knn_layer 1 \
+    --trans_dim 384 \
+    --decoder_depth 8 \
+    --seed 7 \
+    --log_dir pcn_pretrained_v1_npy_test2_seed0_epoch_200

@@ -1,0 +1,48 @@
+optimizer : {
+  type: AdamW,
+  head: {
+    lr: 2e-3,
+    weight_decay: 0.05,
+  }, 
+  kwargs: {
+  lr : 1.4e-5,
+  weight_decay : 0.035
+}}
+scheduler: {
+  type: CosLR,
+  kwargs: {
+    epochs: 200,
+    initial_epochs : 10
+}}
+
+dataset : {
+  train : { _base_: cfgs/dataset_configs/ModelNet40.yaml,
+            others: {subset: 'train'}},
+  val : { _base_: cfgs/dataset_configs/ModelNet40.yaml,
+            others: {subset: 'test'}},
+  test : { _base_: cfgs/dataset_configs/ModelNet40.yaml,
+            others: {subset: 'test'}}}
+model : {
+  NAME: PointTransformer,
+  trans_dim: 384,
+  depth: 12,
+  drop_path_rate: 0.2, 
+  cls_dim: 40,
+  num_heads: 6,
+  group_size: 32,
+  num_group: 64,
+  encoder_dims: 384,
+  head_dp: 0.5,
+  smoothing: 0.0,
+  ema_decay: 0.999,
+  feat_agg: mean_max,
+  type: mlp3,
+}
+
+
+npoints: 1024
+total_bs : 32
+step_per_update : 1
+max_epoch : 200
+grad_norm_clip : 10
+seed: 91

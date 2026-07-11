@@ -1,0 +1,15 @@
+python main.py \
+    --model pt \
+    --ckpts /home/yanxu_2023/yanxu_2023/eccv_rebuttal/MPL-MAE-registry/experiments/base/pretrain/pretrain/ckpt-epoch-300.pth \
+    --root /home/yanxu_2023/yanxu_2023/eccv_rebuttal/MPL-MAE-registry/data \
+    --setting 1 \
+    --num_points 1024 \
+    --rotation_factor 4 \
+    --batch_size 16 \
+    --epoch 250 \
+    --learning_rate 0.0001 \
+    --encoder_lr_scale 0.1 \
+    --warmup_epoch 10 \
+    --weight_decay 0.05 \
+    --grad_clip 10.0 \
+    --log_dir dcp_v1_setting1
